@@ -107,6 +107,7 @@ from .tools.guidance import (
     maboss_agent_manual_resource,
     maboss_workflow_prompt,
 )
+from .tools.biodivine_models import search_biodivine_boolean_models
 from .tools.resources import (
     resource_initial_state,
     resource_logical_rules,
@@ -121,6 +122,7 @@ __all__ = [
     "MABOSS_SERVER_INSTRUCTIONS",
     "maboss_agent_manual_resource",
     "maboss_workflow_prompt",
+    "search_biodivine_boolean_models",
     "mcp",
     "resource_initial_state",
     "resource_logical_rules",

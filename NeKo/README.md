@@ -82,10 +82,22 @@ read-only tool. It does not require a NeKo session and returns both normalized
 marker records and a deduplicated `genes` list suitable for
 `create_network(list_of_initial_genes=...)`.
 
-The tool uses the CellMarker API endpoint configured by the
-`CELLMARKER_API_URL` environment variable. The default is the CellMarker 3.0
-marker endpoint. Set that variable when deploying behind a proxy or using a
-locally mirrored CellMarker API.
+The tool first uses a local CellMarker dataset when `CELLMARKER_DATA_PATH` is
+set. CSV, TSV, and SQLite files are supported; local records must include
+`cell_type`, `gene`, and `species` columns. A SQLite file must contain a
+`markers` table. For full local mirrors, create case-insensitive indexes on
+`cell_type` and `species`:
+
+```sql
+CREATE INDEX markers_cell_type_idx ON markers(cell_type COLLATE NOCASE);
+CREATE INDEX markers_species_idx ON markers(species COLLATE NOCASE);
+```
+
+The returned `source` identifies the local file. Obtain and retain the data
+under CellMarker's applicable terms, and record its version and citation with
+the deployment. When `CELLMARKER_DATA_PATH` is unset, the tool uses the API
+endpoint configured by `CELLMARKER_API_URL`; this remains available for
+compatible deployments but is not required for local operation.
 
 ## Building a network
 

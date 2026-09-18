@@ -1,0 +1,1844 @@
+# Reference PMID: nan
+CD3E	stimulation	PTPN6
+# Reference PMID: nan
+PTPN6	stimulation	CD3D
+# Reference PMID: nan
+CD3D	inhibition	CD28
+# Reference PMID: nan
+CD28	stimulation	CD3E
+# Reference PMID: nan
+CD3G	stimulation	PTPN6
+# Reference PMID: nan
+CD28	inhibition	CD3G
+# Reference PMID: HPRD:8760790
+CD247	inhibition	CD28
+# Reference PMID: nan
+CD28	stimulation	CD3D
+# Reference PMID: HPRD:8760790
+CD28	stimulation	CD247
+# Reference PMID: nan
+CD4	stimulation	CD3D
+# Reference PMID: HPRD:7539755
+CD28	inhibition	CD4
+# Reference PMID: nan
+CD8A	stimulation	CD4
+# Reference PMID: nan
+CD28	inhibition	CD8A
+# Reference PMID: nan
+CD8B	inhibition	CD28
+# Reference PMID: nan
+CD28	inhibition	CD8B
+# Reference PMID: SIGNOR:2470098
+LCK	stimulation	CD3D
+# Reference PMID: nan
+CD3D	stimulation	IL2RG
+# Reference PMID: nan
+IL2RG	inhibition	LCK
+# Reference PMID: nan
+ZAP70	inhibition	CSK
+# Reference PMID: nan
+CSK	stimulation	CD3D
+# Reference PMID: nan
+CD28	stimulation	ZAP70
+# Reference PMID: HINT:7524075; HPRD-phos:19901323; KEA:16094384; SIGNOR:8992971; HPRD-phos:8992971; ProtMapper:22936936; KEA:8992971; ProtMapper:19901323; KEA:15144186; ProtMapper:15144186; KEA:8946678; ProtMapper:8992971; HPRD:10586033; HPRD:8992971; HPRD:15144186; HPRD-phos:15144186; KEA:15592455; SIGNOR:22936936; HINT:9317120; phosphoELM:8992971
+ITK	stimulation	CD28
+# Reference PMID: nan
+CD3D	stimulation	ITK
+# Reference PMID: nan
+CD3D	inhibition	LAT
+# Reference PMID: nan
+IL7R	stimulation	LCK
+# Reference PMID: nan
+CD3D	stimulation	CBL
+# Reference PMID: nan
+CBL	inhibition	IL7R
+# Reference PMID: nan
+CD3D	stimulation	IL2RA
+# Reference PMID: nan
+CD3D	stimulation	IL2RB
+# Reference PMID: nan
+CCR7	stimulation	GNAI2
+# Reference PMID: nan
+GNAI2	inhibition	CD3D
+# Reference PMID: nan
+CD3D	stimulation	IL2
+# Reference PMID: nan
+IL2	stimulation	FOXP3
+# Reference PMID: SPIKE:17641686; SPIKE_LC:17641686
+RUNX3	stimulation	CD4
+# Reference PMID: nan
+CD3D	stimulation	EOMES
+# Reference PMID: nan
+CD3D	stimulation	PRF1
+# Reference PMID: nan
+IL2RA	stimulation	GZMB
+# Reference PMID: nan
+CD3D	stimulation	IFNG
+# Reference PMID: nan
+IL2	stimulation	CD4
+# Reference PMID: nan
+CD3D	stimulation	FOS
+# Reference PMID: nan
+FOS	stimulation	IL4
+# Reference PMID: nan
+IFNG	inhibition	IL17A
+# Reference PMID: nan
+CD3D	inhibition	CD80
+# Reference PMID: Cellinker:31757674; IntAct:20587542; SPIKE_LC:17145710; Lit-BM-17:21982860; IntAct:11279502; Lit-BM-17:11279502; Lit-BM-17:7545666; Cellinker:21530327; BioGRID:11279502; NetPath:11279501; SPIKE:17145710; HINT:15610849; HINT:11279502; LRdb:22437870; InnateDB:21422170; HINT:7545666; HINT:21982860; SPIKE_LC:7545666; SPIKE:7545666; connectomeDB2020:17953528; ICELLNET:10583602; HPRD:7545666; IntAct:21982860; HINT:20587542; connectomeDB2020:23954143; Cellinker:23954143; CellChatDB:23954143
+CD80	stimulation	CTLA4
+# Reference PMID: nan
+PDCD1	stimulation	CD4
+# Reference PMID: PhosphoSite:27757304; ProtMapper:17069754; ProtMapper:26492563; PhosphoSite:17069754; PhosphoSite:31848194; PhosphoSite:26492563; ProtMapper:32986360; SIGNOR:17069754
+ITK	stimulation	HAVCR2
+# Reference PMID: HPRD:1834739
+PTPRC	stimulation	CD4
+# Reference PMID: nan
+CD3D	inhibition	CSK
+# Reference PMID: phosphoELM:7507203; ProtMapper:7507203; HINT:7507203; IntAct:7507203; iPTMnet:7507203; SIGNOR:7507203; KEA:7507203; PhosphoSite:7507203; IntAct:19167335
+CSK	stimulation	PTPRC
+# Reference PMID: nan
+CD3G	stimulation	CBL
+# Reference PMID: nan
+CBL	inhibition	CD3E
+# Reference PMID: nan
+PTPN6	stimulation	CD3G
+# Reference PMID: nan
+CD3E	inhibition	CD80
+# Reference PMID: HINT:1847722; SPIKE:15610849; Lit-BM-17:21982860; DIP:1847722; Lit-BM-17:7545666; SPIKE:21487479; Lit-BM-17:1847722; Cellinker:21530327; HINT:7964482; Lit-BM-17:7964482; ICELLNET:7545666; NetPath:2164219; HINT:15610849; SPIKE_LC:21487479; LRdb:22437870; HINT:7545666; DIP:2164219; BioGRID:1847722; HINT:21982860; Lit-BM-17:2164219; connectomeDB2020:7545666; SPIKE_LC:15610849; HPRD:7545666; HINT:2164219; Cellinker:23954143; DIP:7964482; CellChatDB:23954143
+CD80	stimulation	CD28
+# Reference PMID: HINT:14500983; SignaLink3:23109003; Lit-BM-17:17653867; Lit-BM-17:16888650; HINT:17005671; BioGRID:11854499; ProtMapper:21176845; SPIKE_LC:3262426; SPIKE:16189514; SignaLink3:15489916; Lit-BM-17:12007789; SPIKE_LC:16189514; SPIKE:8246987; BioGRID:12007789; SPIKE_LC:8246987; IntAct:16888650; IntAct:8246987; HINT:17653867; HPRD:8104794; Lit-BM-17:15047060; NetPath:12601806; Lit-BM-17:17005671; HPRD:11854499; HINT:8246987; HINT:16888650; SPIKE:3262426; Lit-BM-17:8246987; IntAct:17005671
+CD4	stimulation	LCK
+# Reference PMID: KEA:11855827; KEA:15592455; HPRD-phos:11855827; KEA:15659558; HPRD:11855827; KEA:15144186; SIGNOR:11855827; KEA:16094384; ProtMapper:11855827; SIGNOR:2470098; KEA:12522270
+LCK	stimulation	CD3E
+# Reference PMID: nan
+PTPN6	stimulation	CD4
+# Reference PMID: nan
+CD8A	inhibition	CD28
+# Reference PMID: nan
+CD80	inhibition	CD8A
+# Reference PMID: nan
+CD80	inhibition	CD8B
+# Reference PMID: nan
+CD3E	stimulation	IL2RG
+# Reference PMID: nan
+CSK	stimulation	CD3E
+# Reference PMID: Lit-BM-17:8906806; HPRD:8366117; ProtMapper:21900181; SPIKE_LC:8366117; HPRD:11855827; Lit-BM-17:7761456; SPIKE:8366117; Lit-BM-17:11855827; ELM:17617578; HINT:7761456; BioGRID:7761456; NetPath:8366117; ELM:9698567; HINT:11855827; ELM:7761456
+CD3E	stimulation	ZAP70
+# Reference PMID: nan
+CD3E	stimulation	ITK
+# Reference PMID: nan
+CD3E	inhibition	LAT
+# Reference PMID: nan
+PTPN6	inhibition	IL7R
+# Reference PMID: nan
+IL2RA	stimulation	JAK2
+# Reference PMID: nan
+JAK2	stimulation	CD3E
+# Reference PMID: nan
+CD3E	stimulation	IL2RA
+# Reference PMID: nan
+IL2RB	stimulation	JAK2
+# Reference PMID: nan
+CD3E	stimulation	IL2RB
+# Reference PMID: nan
+CCR7	stimulation	JAK2
+# Reference PMID: nan
+FOXP3	stimulation	CTLA4
+# Reference PMID: nan
+CTLA4	inhibition	CD3E
+# Reference PMID: nan
+CD3E	stimulation	IL2
+# Reference PMID: nan
+CD3E	stimulation	EOMES
+# Reference PMID: nan
+CD3E	stimulation	PRF1
+# Reference PMID: ProtMapper:33731692; ProtMapper:23840250
+IFNG	stimulation	JAK2
+# Reference PMID: nan
+CD3E	stimulation	IFNG
+# Reference PMID: nan
+IL2	stimulation	CD28
+# Reference PMID: nan
+IL4	stimulation	CBL
+# Reference PMID: nan
+CD3E	stimulation	FOS
+# Reference PMID: nan
+IL17A	stimulation	IL23A
+# Reference PMID: nan
+IL23A	stimulation	CD3E
+# Reference PMID: nan
+PDCD1	inhibition	CTLA4
+# Reference PMID: SIGNOR:24252238; SIGNOR:11201744; DEPOD:11201744; ProtMapper:11201744; HPRD:11201744
+PTPRC	inhibition	JAK2
+# Reference PMID: nan
+CD3E	inhibition	CSK
+# Reference PMID: nan
+CD3G	stimulation	IL2
+# Reference PMID: nan
+CD4	stimulation	CD3G
+# Reference PMID: SIGNOR:2470098
+LCK	stimulation	CD3G
+# Reference PMID: nan
+CD3G	stimulation	IL2RG
+# Reference PMID: nan
+CSK	stimulation	CD3G
+# Reference PMID: HPRD:8798643; LMPID:15737992; HINT:10966114; Lit-BM-17:11353765; NetPath:9407100; SPIKE:8798643; SignaLink3:23109003; Lit-BM-17:8798643; HINT:10078535; BioGRID:9407100; DIP:22266821; Lit-BM-17:16503409; SignaLink3:18835194; SignaLink3:15169881; Lit-BM-17:9988730; SignaLink3:15268851; HPRD:10074432; Lit-BM-17:10779765; SignaLink3:26192618; BioGRID:10078535; SPIKE_LC:8798643; IntAct:22266821; SignaLink3:20189481; SignaLink3:11353765; Lit-BM-17:9407100; BioGRID:9988730; SignaLink3:10358158; HPRD:11133830; LMPID:10078535; HINT:22266821; HINT:8798643; LMPID:9407100; HINT:29053960; Lit-BM-17:22266821; SignaLink3:11133830; Lit-BM-17:10078535; BioGRID:10779765
+CBL	inhibition	ZAP70
+# Reference PMID: nan
+CD3G	stimulation	ITK
+# Reference PMID: Lit-BM-17:27221712
+PTPN6	inhibition	LAT
+# Reference PMID: nan
+CD3G	stimulation	IL2RA
+# Reference PMID: nan
+CD3G	stimulation	IL2RB
+# Reference PMID: nan
+GNAI2	inhibition	CD3G
+# Reference PMID: nan
+CD3G	stimulation	EOMES
+# Reference PMID: nan
+CD3G	stimulation	PRF1
+# Reference PMID: nan
+CD3G	stimulation	IFNG
+# Reference PMID: nan
+CD3G	stimulation	FOS
+# Reference PMID: nan
+CD3G	inhibition	CSK
+# Reference PMID: nan
+CD4	stimulation	CD247
+# Reference PMID: IntAct:8626561; HINT:8626561; SignaLink3:1505025; SignaLink3:17979845; SPIKE_LC:8626561; HINT:16461343; SPIKE:9047237; DOMINO:8626561; SignaLink3:1706070; SignaLink3:23109003; SPIKE_LC:9047237; PhosphoSite:19229850; PhosphoSite:16337488; SIGNOR:8626561; IntAct:16461343; HPRD:9047237; HINT:24463463
+LCK	stimulation	CD247
+# Reference PMID: nan
+CD247	stimulation	IL2RG
+# Reference PMID: HPRD:9172452
+CSK	stimulation	CD247
+# Reference PMID: nan
+CD247	stimulation	ITK
+# Reference PMID: nan
+CD247	inhibition	LAT
+# Reference PMID: nan
+CD247	stimulation	CBL
+# Reference PMID: nan
+CD247	stimulation	IL2RA
+# Reference PMID: nan
+CD247	stimulation	IL2RB
+# Reference PMID: nan
+GNAI2	inhibition	CD247
+# Reference PMID: nan
+CD247	stimulation	IL2
+# Reference PMID: nan
+CD247	stimulation	EOMES
+# Reference PMID: nan
+CD247	stimulation	PRF1
+# Reference PMID: nan
+CD247	stimulation	IFNG
+# Reference PMID: nan
+CD247	stimulation	FOS
+# Reference PMID: nan
+CD247	inhibition	CD80
+# Reference PMID: nan
+CD2	stimulation	CD8A
+# Reference PMID: nan
+CD2	stimulation	SYK
+# Reference PMID: IntAct:8798676; Lit-BM-17:15536084; KEA:8798764; SIGNOR:8798764; HPRD:7539035; HPRD-phos:16497976; HPRD-phos:8798764; HINT:7539035; HINT:15536084; HPRD:8798764; Lit-BM-17:8621719; SPIKE_LC:16189514; DOMINO:15536084; ProtMapper:8798764; ProtMapper:25990959; KEA:15659558; HPRD-phos:19664994; IntAct:8621719; ProtMapper:19664994; ProtMapper:7518561; HINT:8798676; Lit-BM-17:8798676; ProtMapper:8845015; ProtMapper:16497976; SPIKE_LC:8621719; HINT:8621719; IntAct:15536084
+SYK	inhibition	LCK
+# Reference PMID: SPIKE_LC:8557753; SPIKE:8557753
+CD2	stimulation	PIK3R1
+# Reference PMID: nan
+PIK3R1	stimulation	ITK
+# Reference PMID: SPIKE_LC:10562325; HPRD:10562325; NetPath:10562325; SPIKE:10562325
+CD8A	stimulation	LAT
+# Reference PMID: nan
+CD8A	stimulation	IL2RA
+# Reference PMID: nan
+CD8A	stimulation	IL2RB
+# Reference PMID: nan
+CD8A	stimulation	IL2RG
+# Reference PMID: nan
+CD8A	stimulation	EOMES
+# Reference PMID: nan
+CD8A	stimulation	PRF1
+# Reference PMID: nan
+IL2	stimulation	LBR
+# Reference PMID: nan
+LBR	stimulation	CD2
+# Reference PMID: nan
+CD8A	stimulation	IL2
+# Reference PMID: SIGNOR:11298344; KEA:12522270; ProtMapper:11298344; KEA:15659558; HPRD-phos:11298344; HPRD:7513045; phosphoELM:11298344; KEA:15144186; KEA:11298344; HPRD:11298344; ProtMapper:15144186; HPRD:15144186; DIP:7513045; HPRD-phos:15144186
+LCK	stimulation	CD5
+# Reference PMID: ProtMapper:22936936; KEA:8992971; ProtMapper:8992971; SIGNOR:22936936; ProtMapper:7568038; ProtMapper:27460989; KEA:16094384; HPRD:10430626; phosphoELM:8992971; SIGNOR:8992971
+LCK	stimulation	CD28
+# Reference PMID: nan
+CD28	stimulation	IL7
+# Reference PMID: DIP:1558969; CellTalkDB:11858939; LRdb:7522165; SPIKE:2317865; IntAct:8266077; IntAct:19141282; connectomeDB2020:10390077; Baccin2019:10390077; SPIKE_LC:17145710; LRdb:11858939; Baccin2019:11858939; SignaLink3:23331499; connectomeDB2020:7522165; SPIKE:17145710; connectomeDB2020:11858939; InnateDB:8266077; HPMR:7522165; Lit-BM-17:8409434; HINT:8266077; DIP:8409434; HPRD:11858939; HPMR:8128231; Lit-BM-17:19141282; SIGNOR:20089933; Lit-BM-17:1558969; SignaLink3:8204885; DIP:19141282; NetPath:2317865; LRdb:10390077; HINT:19141282; SPIKE_LC:2317865; Baccin2019:7522165; HPRD:10390077; SIGNOR:8204885
+IL7	stimulation	IL7R
+# Reference PMID: nan
+CD28	stimulation	CXCR4
+# Reference PMID: nan
+CXCR4	stimulation	SELL
+# Reference PMID: nan
+FOXP3	inhibition	IL2
+# Reference PMID: nan
+CD28	stimulation	IL4
+# Reference PMID: nan
+IL4	inhibition	FOXP3
+# Reference PMID: HPRD:7539755
+CD4	stimulation	CD28
+# Reference PMID: nan
+CD28	stimulation	IL2
+# Reference PMID: nan
+IL2	stimulation	GZMB
+# Reference PMID: nan
+IFNG	stimulation	TGFB1
+# Reference PMID: nan
+TGFB1	stimulation	CD28
+# Reference PMID: nan
+IL4	inhibition	TGFB1
+# Reference PMID: nan
+CD28	stimulation	IFNG
+# Reference PMID: nan
+CTLA4	stimulation	IL2
+# Reference PMID: nan
+CSK	stimulation	CD4
+# Reference PMID: nan
+IL7R	stimulation	JAK2
+# Reference PMID: nan
+JAK2	stimulation	CD4
+# Reference PMID: nan
+CD4	stimulation	CBL
+# Reference PMID: InnateDB:8041779; InnateDB:24608040
+IL2RG	stimulation	JAK2
+# Reference PMID: nan
+CD4	stimulation	IL6
+# Reference PMID: nan
+IL6	inhibition	CCR7
+# Reference PMID: PhosphoSite:24155921; ProtMapper:26441996; ProtMapper:30011797; ProtMapper:24155921; PhosphoSite:34768829; ProtMapper:28757603; PhosphoSite:30011797; SIGNOR:24155921
+LCK	inhibition	FOXP3
+# Reference PMID: nan
+IL6	stimulation	GZMB
+# Reference PMID: nan
+IL4	inhibition	IL12B
+# Reference PMID: nan
+IL12B	stimulation	CD4
+# Reference PMID: nan
+IL23A	stimulation	CD4
+# Reference PMID: nan
+CD4	stimulation	IFNG
+# Reference PMID: SIGNOR:35413245
+LAG3	inhibition	COMPLEX:CHEBI:166824_CHEBI:53000_HLA-DRA_HLA-DRB1
+# Reference PMID: SIGNOR:31001252
+COMPLEX:CHEBI:166824_CHEBI:53000_HLA-DRA_HLA-DRB1	stimulation	CD4
+# Reference PMID: nan
+CD4	stimulation	ITK
+# Reference PMID: nan
+ICOS	stimulation	CD40LG
+# Reference PMID: nan
+CD40LG	stimulation	CD4
+# Reference PMID: nan
+CD4	inhibition	CSK
+# Reference PMID: nan
+CD8A	stimulation	PTPN6
+# Reference PMID: nan
+CD8A	inhibition	TGFB1
+# Reference PMID: nan
+TGFB1	stimulation	LEF1
+# Reference PMID: nan
+TGFB1	inhibition	TBX21
+# Reference PMID: nan
+CD4	stimulation	CD8A
+# Reference PMID: nan
+IFNG	stimulation	HLA-A
+# Reference PMID: HPRD:10809759; Lit-BM-17:9177355; HINT:10809759; HINT:21645925; HPRD:9177355; Lit-BM-17:10809759; HINT:9177355; BioGRID:9177355
+HLA-A	stimulation	CD8A
+# Reference PMID: nan
+TGFB1	stimulation	IL17A
+# Reference PMID: nan
+CD8A	inhibition	CD80
+# Reference PMID: nan
+CD8A	inhibition	CSK
+# Reference PMID: nan
+CD8B	stimulation	IL2RG
+# Reference PMID: nan
+CD8B	stimulation	PIK3R1
+# Reference PMID: nan
+CD8B	stimulation	LAT
+# Reference PMID: nan
+CD8B	stimulation	PTPN6
+# Reference PMID: nan
+CD8B	stimulation	IL2RA
+# Reference PMID: nan
+CD8B	stimulation	IL2RB
+# Reference PMID: nan
+CD8B	stimulation	IL2
+# Reference PMID: nan
+CD8B	stimulation	EOMES
+# Reference PMID: nan
+CD8B	stimulation	PRF1
+# Reference PMID: nan
+IFNG	stimulation	HLA-E
+# Reference PMID: nan
+HLA-E	stimulation	CD8B
+# Reference PMID: nan
+CD8B	inhibition	CD80
+# Reference PMID: nan
+CD8B	inhibition	CSK
+# Reference PMID: KEA:15173187; KEA:12783885; phosphoELM:15173187; PhosphoSite:16352613; phosphoELM:12783885; PhosphoSite:12783885; PhosphoSite:15173187
+LCK	stimulation	SOCS3
+# Reference PMID: nan
+SOCS3	inhibition	IL7R
+# Reference PMID: nan
+JAK2	stimulation	LCK
+# Reference PMID: nan
+SELL	stimulation	CXCR4
+# Reference PMID: nan
+CXCR4	stimulation	LCK
+# Reference PMID: nan
+LCK	stimulation	SMAD4
+# Reference PMID: nan
+SMAD4	stimulation	TCF7
+# Reference PMID: SIGNOR:14583609; SPIKE_LC:16713569; SignaLink3:23331499; SignaLink3:14583609; HPRD:14583609; NetPath:14583609
+LCK	stimulation	NOTCH1
+# Reference PMID: SPIKE_LC:16713569; SignaLink3:23331499; SPIKE:16713569; HPRD:11604490; NetPath:11604490; SignaLink3:11604490; SignaLink3:18988627; SPIKE_LC:11604490; SPIKE:11604490
+NOTCH1	stimulation	LEF1
+# Reference PMID: KEA:7539106; PhosphoSite:27748765; HPRD:7539106; ProtMapper:10571988; PhosphoSite:9500442; ProtMapper:10751636; ProtMapper:7539106; PhosphoSite:10571988; PhosphoSite:25386784; phosphoELM:7539106; SIGNOR:9500442; HPRD-phos:7539106; ProtMapper:9500442; PhosphoSite:11145737; PhosphoSite:7539106; SIGNOR:10571988; iPTMnet:9500442
+LCK	stimulation	ESR1
+# Reference PMID: SPIKE_LC:10096242; Lit-BM-17:25303530; SPIKE:10096242; Lit-BM-17:26153859
+ESR1	stimulation	GATA3
+# Reference PMID: HPRD-phos:7543024; HPRD:7543024; ProtMapper:7690989; HPRD:11294897; KEA:11839738; ProtMapper:10918587; HPRD:11839738; HPRD-phos:7690989; HPRD-phos:7657660; KEA:7657660; HPRD-phos:15322115; HPRD:10918587; ProtMapper:11839738; HPRD:15322115; HPRD:7657660; KEA:11438544; KEA:7690989; KEA:10982844; KEA:9355737; ProtMapper:7543024; HPRD-phos:12637327; HPRD:12817007; HPRD:12637327; ProtMapper:11294897; ProtMapper:15322115; KEA:10918587; ProtMapper:12817007; KEA:7592750; ProtMapper:7657660; KEA:12637327; KEA:7543024; KEA:11294897; HPRD-phos:12817007; HPRD-phos:11839738; KEA:12817007; HPRD-phos:11294897; HPRD:7690989; KEA:15322115; KEA:10748192; ProtMapper:12637327; KEA:11152457; HPRD-phos:10918587
+LCK	stimulation	STAT1
+# Reference PMID: nan
+STAT1	stimulation	TBX21
+# Reference PMID: nan
+LCK	inhibition	IL2RA
+# Reference PMID: nan
+IL4	inhibition	IL12A
+# Reference PMID: nan
+IL12A	stimulation	LCK
+# Reference PMID: nan
+IL17A	stimulation	CXCL12
+# Reference PMID: nan
+CXCL12	stimulation	LCK
+# Reference PMID: nan
+NFKBIA	stimulation	IL17A
+# Reference PMID: ProtMapper:17897671; ProtMapper:9312162; SignaLink3:15771581; SignaLink3:23109003; ProtMapper:23982207; ProtMapper:28516764; ProtMapper:23933134; SignaLink3:9312162; iPTMnet:9312162; SIGNOR:9312162; dbPTM:17192257; SignaLink3:19132916; KEA:15144186; HPRD:9312162; PhosphoSite:9312162; ProtMapper:15144186; KEA:17192257; dbPTM:19690332; phosphoELM:12842872; KEA:12842872; HPRD-phos:9312162; KEA:9312162; ProtMapper:12842872; HPRD:15144186; HPRD-phos:15144186; ProtMapper:28644030; ProtMapper:23946894; phosphoELM:9312162; ProtMapper:20305788
+LCK	stimulation	ITK
+# Reference PMID: nan
+CTLA4	inhibition	ICOS
+# Reference PMID: nan
+LCK	stimulation	HRAS
+# Reference PMID: nan
+HRAS	stimulation	CD69
+# Reference PMID: nan
+LCK	stimulation	MYC
+# Reference PMID: SPIKE_LC:17093053
+MYC	inhibition	PTPRC
+# Reference PMID: nan
+ZAP70	stimulation	PIK3CD
+# Reference PMID: nan
+PIK3CD	stimulation	ITK
+# Reference PMID: nan
+LAT	stimulation	MAP3K7
+# Reference PMID: nan
+MAP3K7	stimulation	ZAP70
+# Reference PMID: ProtMapper:35095913; HINT:11368773; SignaLink3:23109003; SIGNOR:11368773; PhosphoSite:24642916; PhosphoSite:15029250; SignaLink3:15084594; PhosphoSite:24412752; PhosphoSite:27896837; PhosphoSite:11395491; PhosphoSite:12496416; ProtMapper:11368773; KEA:10811803; PhosphoSite:34161759; ProtMapper:29915297; ProtMapper:23150273; ProtMapper:23758320; KEA:15659558; HPRD:11368773; ProtMapper:24119664; SPIKE_LC:16906159; ProtMapper:18779373; ProtMapper:27700984; HPRD-phos:11368773; PhosphoSite:15100278; SIGNOR:29915297; PhosphoSite:30510001; ProtMapper:22507872; ProtMapper:31611699; HINT:12186560; KEA:11368773; PhosphoSite:33931484; PhosphoSite:11368773
+ZAP70	stimulation	LAT
+# Reference PMID: Lit-BM-17:10318843; Lit-BM-17:8798643; SIGNOR:10318843; dbPTM:10037717; phosphoELM:11270871; SPIKE:16189514; ProtMapper:23758320; IntAct:10318843; InnateDB:17998387; SPIKE:10318843; SIGNOR:10037717; SIGNOR:7642520; KEA:7961936; ProtMapper:7612267; HINT:16461343; SPIKE_LC:10318843; SignaLink3:8798643; SIGNOR:8756661; SPIKE:9685404; KEA:10037717; HPRD:8798643; SignaLink3:15144186; phosphoELM:7642520; ProtMapper:16839418; ProtMapper:7961936; ProtMapper:29269020; PhosphoSite:27869819; HINT:17998387; HPRD:9685404; ProtMapper:10318843; SIGNOR:10202147; KEA:17192257; phosphoELM:9685404; ProtMapper:21917715; KEA:11270871; SignaLink3:10318843; IntAct:10556826; ProtMapper:21103055; SIGNOR:8798643; KEA:7642520; dbPTM:16094384; HINT:10556826; ProtMapper:16339550; ProtMapper:30356330; ProtMapper:8756661; ProtMapper:8955094; ProtMapper:10037717; ProtMapper:21829558; ProtMapper:33917227; KEA:16094384; ProtMapper:23933134; SignaLink3:7961936; SPIKE_LC:10556826; ProtMapper:25137454; SPIKE:10556826; SPIKE_LC:16189514; IntAct:16461343; ProtMapper:15144186; KEA:15268851; DOMINO:10556826; ProtMapper:34161759; ProtMapper:22238573; ProtMapper:23874979; dbPTM:12522270; KEA:15659558; PhosphoSite:9685404; NetPath:10318843; PhosphoSite:11514605; BioGRID:10318843; PhosphoSite:31932281; ProtMapper:7642520; HPRD:15144186; KEA:10202147; ProtMapper:20945976; KEA:15592455; PhosphoSite:16339550; KEA:15292262; SPIKE_LC:9685404; SignaLink3:9685404; phosphoELM:8756661; KEA:10318843; ProtMapper:9199177; HPRD-phos:10318843; phosphoELM:7961936; SIGNOR:9685404; SignaLink3:23331499; Lit-BM-17:10556826; HPRD:10318843; Lit-BM-17:16461343; SIGNOR:7961936; KEA:15144186; dbPTM:15592455; KEA:8756661; HINT:10318843; KEA:9685404; ProtMapper:9685404; HPRD:7961936; ProtMapper:34489451; KEA:12522270
+LCK	stimulation	ZAP70
+# Reference PMID: nan
+IL2RA	stimulation	CBL
+# Reference PMID: nan
+IL2RB	stimulation	CBL
+# Reference PMID: ProtMapper:15735648; phosphoELM:15735648; dbPTM:15735648; KEA:15735648; SignaLink3:23109003; SIGNOR:15735648; ProtMapper:32429593; SignaLink3:15735649; ProtMapper:26390817; SIGNOR:29440413
+ZAP70	stimulation	MAPK14
+# Reference PMID: nan
+MAPK14	stimulation	GATA3
+# Reference PMID: nan
+CD4	stimulation	ZAP70
+# Reference PMID: nan
+IFNG	stimulation	CBL
+# Reference PMID: ProtMapper:9047237; SIGNOR:12817019; SignaLink3:12640133; ProtMapper:8702662; SIGNOR:8702662; SPIKE_LC:8702662; SignaLink3:23109003; SignaLink3:11323691; HINT:9047237; ProtMapper:10660534; HINT:12190313; phosphoELM:8892604; HPRD:8702662; HPRD:9047237; KEA:8702662; SPIKE:8702662; KEA:9047237; HPRD-phos:9047237; ProtMapper:23758320; iPTMnet:8702662; KEA:8892604; KEA:10660534; KEA:15388330; phosphoELM:12817019; phosphoELM:8702662; SignaLink3:15286727; phosphoELM:9047237; HINT:24584089; KEA:12817019; ProtMapper:12817019; SIGNOR:9047237; HPRD-phos:8702662; KEA:12640123; HPRD-phos:10660534; HPRD:10660534
+ZAP70	stimulation	LCP2
+# Reference PMID: nan
+LCP2	stimulation	IL2
+# Reference PMID: SIGNOR:11368773; NetPath:9489702
+LAT	stimulation	PIK3R2
+# Reference PMID: nan
+PIK3R2	stimulation	ITK
+# Reference PMID: ProtMapper:11368773; SPIKE:12186560; SPIKE_LC:12186560; ProtMapper:9489702; BioGRID:10506192; HPRD:10506192; HPRD:12186560; ProtMapper:12186560
+ITK	stimulation	LAT
+# Reference PMID: nan
+IL2RA	stimulation	GRB2
+# Reference PMID: NetPath:10636929; HINT:8985255; HINT:10636929; HPRD:10636929
+GRB2	stimulation	ITK
+# Reference PMID: nan
+IL2RB	stimulation	PRKCB
+# Reference PMID: nan
+PRKCB	stimulation	ITK
+# Reference PMID: nan
+CD28	stimulation	PRF1
+# Reference PMID: nan
+TGFB1	stimulation	ITK
+# Reference PMID: nan
+IL17A	inhibition	TNF
+# Reference PMID: nan
+TNF	stimulation	ITK
+# Reference PMID: nan
+ICOS	stimulation	PIK3CD
+# Reference PMID: ProtMapper:16938345; SIGNOR:16938345; ProtMapper:27700984; HPRD:12359715; HPRD:12186560
+LCK	stimulation	LAT
+# Reference PMID: nan
+IL2RA	stimulation	MAPK8
+# Reference PMID: ProtMapper:15192708; SIGNOR:15192708
+MAPK8	inhibition	LAT
+# Reference PMID: nan
+IL2RB	stimulation	MAPK8
+# Reference PMID: nan
+HLA-A	stimulation	LAT
+# Reference PMID: ProtMapper:15843522
+IL2	stimulation	MAPK3
+# Reference PMID: PhosphoSite:15192708; ProtMapper:15192708; SIGNOR:15192708
+MAPK3	inhibition	LAT
+# Reference PMID: nan
+MAP3K7	inhibition	IL2
+# Reference PMID: nan
+IL4	stimulation	PTPN1
+# Reference PMID: SIGNOR:12857726; HPRD:12857726; DEPOD:12857726; SPIKE_LC:12857726; DOMINO:12857726; InnateDB:12857726
+PTPN1	inhibition	LAT
+# Reference PMID: nan
+PDCD1	stimulation	CD247
+# Reference PMID: SPIKE:2047859; SPIKE_LC:2047859; HPRD:10214954; KEA:2047859; ProtMapper:10214954; SPIKE:16189514; SPIKE_LC:16189514; PhosphoSite:10214954; SPIKE:10214954; SIGNOR:10214954; phosphoELM:10214954; SPIKE_LC:10214954; PhosphoSite:10602027; NetPath:2047859; PhosphoSite:12200137; PhosphoSite:18348982; phosphoELM:2047859; HPRD:2047859; KEA:10214954
+LCK	stimulation	IL2RB
+# Reference PMID: nan
+IL2RG	stimulation	SOCS3
+# Reference PMID: nan
+LCK	inhibition	IL2RG
+# Reference PMID: nan
+CCR7	stimulation	JAK3
+# Reference PMID: HPRD:7481769; ProtMapper:22551764; SPIKE_LC:10781830; InnateDB:20167604; HPRD:15996891; SPIKE:10781830; ProtMapper:27423467; NetPath:7481769
+JAK3	stimulation	IL7R
+# Reference PMID: nan
+JAK2	stimulation	TBX21
+# Reference PMID: nan
+JAK2	inhibition	EOMES
+# Reference PMID: InnateDB:20167604; NetPath:7719938; NetPath:20974963; HPRD:7719938
+IL7R	stimulation	STAT5A
+# Reference PMID: nan
+STAT5A	stimulation	PRF1
+# Reference PMID: nan
+JAK2	stimulation	GZMA
+# Reference PMID: nan
+JAK2	stimulation	GZMB
+# Reference PMID: nan
+IL7R	stimulation	TYK2
+# Reference PMID: nan
+TYK2	stimulation	IFNG
+# Reference PMID: nan
+IL2	stimulation	SOCS3
+# Reference PMID: nan
+JAK2	inhibition	IL2
+# Reference PMID: nan
+STAT5A	stimulation	IL4
+# Reference PMID: SignaLink3:11160222; SignaLink3:23109003; SignaLink3:15240681; SignaLink3:15358536
+PDCD1	stimulation	PTPN6
+# Reference PMID: HPRD:8647212; SPIKE_LC:10781830; InnateDB:20167604; NetPath:8647212; NetPath:20974963; HPRD:15996891; ProtMapper:27729062; SPIKE:10781830
+JAK1	stimulation	IL7R
+# Reference PMID: HPRD:11886175; InnateDB:8568232; InnateDB:15178252; HINT:1545122; NetPath:8260650; HINT:15178252; HINT:11886175; DIP:8006584; InnateDB:1545122; NetPath:3116143
+IL2RB	stimulation	IL2RA
+# Reference PMID: nan
+IL2RA	stimulation	SOCS3
+# Reference PMID: HPRD:10373548; SPIKE_LC:10373548; NetPath:10373548; SPIKE:10373548; InnateDB:10373548
+SOCS3	inhibition	IL2RB
+# Reference PMID: InnateDB:8568232; NetPath:8260650
+IL2RA	inhibition	IL2RG
+# Reference PMID: nan
+JAK3	inhibition	IL2RA
+# Reference PMID: nan
+SELL	stimulation	JUN
+# Reference PMID: nan
+JUN	stimulation	IL2RA
+# Reference PMID: nan
+TCF7	stimulation	JUN
+# Reference PMID: nan
+LEF1	stimulation	JUN
+# Reference PMID: nan
+GATA3	stimulation	IL4
+# Reference PMID: nan
+IL4	inhibition	IL2RA
+# Reference PMID: nan
+IL2RA	stimulation	STAT1
+# Reference PMID: nan
+STAT1	inhibition	GATA3
+# Reference PMID: nan
+TBX21	inhibition	STAT4
+# Reference PMID: nan
+STAT4	stimulation	IL2RA
+# Reference PMID: nan
+FOXP3	stimulation	IL2RA
+# Reference PMID: nan
+IL2RA	stimulation	STAT5A
+# Reference PMID: SIGNOR:18270368
+STAT5A	stimulation	FOXP3
+# Reference PMID: nan
+HLA-A	stimulation	IL2RA
+# Reference PMID: HPRD:2497520
+IL2RA	stimulation	NFKB1
+# Reference PMID: nan
+NFKB1	stimulation	IFNG
+# Reference PMID: nan
+NFKB1	stimulation	IL17A
+# Reference PMID: KEA:9813138; HPRD:10842319; ProtMapper:10842319; KEA:10842319; KEA:9973379; phosphoELM:10842319; SIGNOR:10842319; HPRD-phos:10842319
+JAK2	stimulation	CTLA4
+# Reference PMID: nan
+IL2RA	stimulation	HRAS
+# Reference PMID: nan
+IL2RA	stimulation	MYC
+# Reference PMID: HPRD:7973659; InnateDB:7973657; HPRD:10825200; NetPath:7693677; SPIKE:16189514; HPRD:9553136; SPIKE_LC:16189514; SPIKE_LC:9553136; SPIKE:9553136
+JAK3	inhibition	IL2RB
+# Reference PMID: SPIKE_LC:10602027; NetPath:10602027; SPIKE:16189514; SPIKE:10602027; SPIKE_LC:16189514; HPRD:10602027
+IL2RB	stimulation	STAT1
+# Reference PMID: connectomeDB2020:15265897; InnateDB:15178252; InnateDB:3098894; IntAct:22446627; connectomeDB2020:11035066; HINT:28405498; HINT:3095922; CellTalkDB:15265897; NetPath:3116143; HINT:16477002; HPRD:11035066; HINT:1940342; LRdb:11035066; connectomeDB2020:8049354; Baccin2019:8049354; InnateDB:1940342; InnateDB:8568232; SIGNOR:16477002; HINT:22446627; HINT:8049354; HINT:11035066; HPMR:15933202; DIP:22446627; LRdb:15265897; HINT:16293754; HINT:15178252; SPIKE:3095922; DIP:8006584; Baccin2019:11035066; HPRD:8049354; HPMR:15265897; HINT:3098894; LRdb:8049354; Baccin2019:15265897; SPIKE_LC:3095922; InnateDB:3095922; NetPath:8260650
+IL2	stimulation	IL2RB
+# Reference PMID: HINT:10602027; SPIKE_LC:10602027; NetPath:8631883; SPIKE:10602027; SPIKE:16189514; SPIKE_LC:16189514; HPRD:10602027; HINT:21516110
+IL2RB	stimulation	STAT5A
+# Reference PMID: nan
+HLA-A	stimulation	IL2RB
+# Reference PMID: nan
+IL2RB	stimulation	TYK2
+# Reference PMID: nan
+IL4	stimulation	IL6
+# Reference PMID: nan
+IL6	stimulation	IL2RB
+# Reference PMID: nan
+IL17A	stimulation	IL6
+# Reference PMID: nan
+IL2RB	stimulation	HRAS
+# Reference PMID: nan
+IL2RB	stimulation	MYC
+# Reference PMID: LRdb:827; SPIKE_LC:17145710; SIGNOR:11418623; connectomeDB2020:7918378; HPMR:7918378; InnateDB:8266078; HINT:23103943; CellTalkDB:7918378; Lit-BM-17:18243101; Lit-BM-17:8266078; NetPath:8266078; HPRD:8266078; HINT:9799097; connectomeDB2020:8266078; HINT:18243101; Baccin2019:79183788266078; LRdb:7918378; HINT:8266078; HPMR:11815609; HINT:31387945
+IL4	stimulation	IL2RG
+# Reference PMID: HPRD:11418623; SPIKE_LC:16189514
+IL2RG	stimulation	STAT1
+# Reference PMID: nan
+IL2RG	stimulation	PRF1
+# Reference PMID: nan
+HLA-A	stimulation	IL2RG
+# Reference PMID: nan
+IL2RG	stimulation	TYK2
+# Reference PMID: HPRD:11418623; SPIKE_LC:16189514
+IL2RG	stimulation	STAT5A
+# Reference PMID: nan
+IL2RG	stimulation	HRAS
+# Reference PMID: nan
+IL2RG	stimulation	MYC
+# Reference PMID: nan
+IFNG	stimulation	CXCL10
+# Reference PMID: nan
+CXCL10	stimulation	CCR7
+# Reference PMID: nan
+IL2	stimulation	IL6
+# Reference PMID: nan
+IFNG	stimulation	CFH
+# Reference PMID: LRdb:10377245; Cellinker:10377245; HPRD:10377245; ICELLNET:10377245; connectomeDB2020:10377245
+CFH	stimulation	SELL
+# Reference PMID: HINT:18641343; HINT:15522880
+JUN	stimulation	IFNG
+# Reference PMID: nan
+JUN	stimulation	IL2
+# Reference PMID: nan
+IL4	stimulation	CXCR4
+# Reference PMID: nan
+JUN	stimulation	IL4
+# Reference PMID: CA1:12032083
+TCF7	stimulation	LEF1
+# Reference PMID: ACSN:22761862; ACSN:21151179; ACSN:19623618; ACSN:17143292; ACSN:22290435; ACSN:15576399; ACSN:19619488; ACSN:17306568; ACSN:17666529; ACSN:23343194; ACSN:21285352; ACSN:16039586
+TCF7	stimulation	MYC
+# Reference PMID: SIGNOR:19800882
+RUNX3	inhibition	NOTCH1
+# Reference PMID: nan
+IL2	inhibition	TGFB1
+# Reference PMID: ACSN:11955436; ACSN:22270359; ACSN:16039586; ACSN:21151179; ACSN:19623618; ACSN:22290435; ACSN:19619488; ACSN:12051714; ACSN:16940750; ACSN:15810077; ACSN:11967263; ACSN:22761862; ACSN:8666229; ACSN:15576399; ACSN:17666529; ACSN:22943793; ACSN:19751508; ACSN:17143292; ACSN:17306568; ACSN:7542250; ACSN:23343194; ACSN:21285352
+LEF1	stimulation	MYC
+# Reference PMID: nan
+GATA3	inhibition	TBX21
+# Reference PMID: nan
+NOTCH1	stimulation	GATA3
+# Reference PMID: nan
+PRF1	stimulation	CDK2
+# Reference PMID: ProtMapper:27053161; SIGNOR:24820417
+CDK2	inhibition	GATA3
+# Reference PMID: nan
+GZMA	stimulation	MAPK14
+# Reference PMID: ProtMapper:23285134; ProtMapper:33644712; ProtMapper:24777831; ProtMapper:31717492; ProtMapper:24608040; ProtMapper:10645003; ProtMapper:26677135; ProtMapper:14517275; ProtMapper:9454765; ProtMapper:28143527; ProtMapper:22178447; ProtMapper:29925830; ProtMapper:23562842; ProtMapper:17947699; ProtMapper:12725866; ProtMapper:17997851; ProtMapper:27570112; ProtMapper:31201357; ProtMapper:31202985; ProtMapper:20087684; ProtMapper:28430601; ProtMapper:28445952; ProtMapper:9649436; ProtMapper:18566411; ProtMapper:22823229; ProtMapper:10707961; ProtMapper:11960596; ProtMapper:23657944; ProtMapper:25753288; ProtMapper:26901336; ProtMapper:26934444; ProtMapper:33731692; ProtMapper:11897494; ProtMapper:26113305; ProtMapper:22162832; ProtMapper:14978237; ProtMapper:22425562; ProtMapper:31678681; ProtMapper:32290500; ProtMapper:31495563; ProtMapper:26467650; ProtMapper:24366643; ProtMapper:11972023; ProtMapper:23352233; ProtMapper:18950705; ProtMapper:25950470; ProtMapper:23013371; ProtMapper:29662014; ProtMapper:17986321; ProtMapper:19846878; ProtMapper:29751820; ProtMapper:31861612; ProtMapper:24443556; ProtMapper:15051500; ProtMapper:21429244; ProtMapper:29796172; ProtMapper:23840250; ProtMapper:20171739; ProtMapper:19041714; ProtMapper:27378243
+IFNG	stimulation	STAT1
+# Reference PMID: nan
+GATA3	inhibition	IFNG
+# Reference PMID: nan
+IL2	stimulation	STAT1
+# Reference PMID: nan
+IL4	inhibition	IL2
+# Reference PMID: ProtMapper:22142941; ProtMapper:33504618; ProtMapper:24508458; ProtMapper:17306571; ProtMapper:25428220; ProtMapper:29925830; ProtMapper:18852293
+IL4	stimulation	STAT6
+# Reference PMID: SIGNOR:12947222; SPIKE_LC:17312100; SPIKE:17312100
+STAT6	stimulation	GATA3
+# Reference PMID: nan
+IL17A	stimulation	MAPK14
+# Reference PMID: nan
+STAT4	stimulation	PRF1
+# Reference PMID: nan
+TBX21	stimulation	IFNG
+# Reference PMID: nan
+STAT4	inhibition	IL2
+# Reference PMID: nan
+IFNG	stimulation	IL4
+# Reference PMID: nan
+IL2RA	stimulation	PRF1
+# Reference PMID: nan
+FOXP3	inhibition	NFKB1
+# Reference PMID: nan
+NFKB1	stimulation	IL4
+# Reference PMID: nan
+RUNX3	stimulation	IFNG
+# Reference PMID: nan
+EOMES	stimulation	PRF1
+# Reference PMID: nan
+EOMES	stimulation	IFNG
+# Reference PMID: nan
+IL12A	inhibition	EOMES
+# Reference PMID: nan
+HLA-A	stimulation	PRF1
+# Reference PMID: DEPOD:7526385; HINT:15684325; HINT:7526385; HPRD:7526385
+PTPRC	inhibition	CD247
+# Reference PMID: SPIKE_LC:19254476; SPIKE:19254476
+GZMA	stimulation	IL1B
+# Reference PMID: nan
+IL1B	stimulation	IL2
+# Reference PMID: nan
+IL12A	stimulation	GZMA
+# Reference PMID: nan
+GZMB	stimulation	KLRK1
+# Reference PMID: nan
+KLRK1	stimulation	IL17A
+# Reference PMID: nan
+IL4	inhibition	IFNG
+# Reference PMID: HPRD:3139842
+TNF	inhibition	IFNG
+# Reference PMID: nan
+IFNG	stimulation	IFNA13
+# Reference PMID: nan
+IFNA13	stimulation	PDCD1
+# Reference PMID: nan
+CD69	stimulation	S100A9
+# Reference PMID: nan
+S100A9	inhibition	IFNG
+# Reference PMID: nan
+IFNG	inhibition	IL15
+# Reference PMID: nan
+IL15	stimulation	CD69
+# Reference PMID: nan
+IFNG	stimulation	FAS
+# Reference PMID: nan
+FAS	stimulation	PTPRC
+# Reference PMID: nan
+IL6	stimulation	IL2
+# Reference PMID: HPRD:3262520
+IL2	stimulation	IFNA13
+# Reference PMID: nan
+CD40LG	inhibition	IL2
+# Reference PMID: nan
+IL2	stimulation	HRAS
+# Reference PMID: nan
+IL2	stimulation	MYC
+# Reference PMID: nan
+IL17A	stimulation	ATF2
+# Reference PMID: nan
+ATF2	stimulation	IL4
+# Reference PMID: nan
+IL2	stimulation	IL4
+# Reference PMID: nan
+IL4	stimulation	IFNA13
+# Reference PMID: nan
+PTPRC	inhibition	IL4
+# Reference PMID: nan
+CD3D	stimulation	PTPN6
+# Reference PMID: nan
+CD80	stimulation	CD3D
+# Reference PMID: nan
+CD3D	stimulation	PIK3R1
+# Reference PMID: nan
+CD3D	inhibition	LCP2
+# Reference PMID: nan
+CD3D	stimulation	JUN
+# Reference PMID: nan
+PTPN6	stimulation	CD3E
+# Reference PMID: nan
+GNAI2	inhibition	CD3E
+# Reference PMID: nan
+CD80	stimulation	CD3E
+# Reference PMID: BioGRID:9312149; HPRD:11855827; HPRD:9312149; HPRD:11689561
+CD3E	stimulation	PIK3R1
+# Reference PMID: nan
+IL12B	stimulation	CD3E
+# Reference PMID: nan
+CD3E	inhibition	LCP2
+# Reference PMID: nan
+TYK2	stimulation	CD3E
+# Reference PMID: nan
+CD3E	stimulation	JUN
+# Reference PMID: nan
+CD80	inhibition	CD3G
+# Reference PMID: nan
+CD3G	stimulation	PIK3R1
+# Reference PMID: nan
+CD3G	stimulation	JUN
+# Reference PMID: Lit-BM-17:9036949; SPIKE_LC:8366117; Lit-BM-17:7528772; BioGRID:7737297; HINT:8901551; SignaLink3:23620508; SignaLink3:15268851; SignaLink3:7523143; SPIKE:16189514; HINT:10752619; SignaLink3:9603467; SignaLink3:10925299; SignaLink3:11449354; HINT:21957439; SignaLink3:9738502; SignaLink3:15081523; IntAct:8901551; SignaLink3:21059766; IntAct:21957439; SignaLink3:20435894; SignaLink3:24445665; SignaLink3:10358164; Lit-BM-17:26390156; IntAct:8648092; SignaLink3:23109003; HPRD:8366117; HINT:7659156; SignaLink3:2139103; HINT:25287889; HINT:8648092; IntAct:15832366; HINT:10704231; Lit-BM-17:7509083; SignaLink3:12731048; SignaLink3:15735648; Lit-BM-17:10704231; NetPath:8366117; SignaLink3:9625766; HINT:7522230; InnateDB:7522230; HINT:24463463; SignaLink3:11875494; IntAct:7528772; HINT:15832366; Lit-BM-17:10752619; BioGRID:9036949; SignaLink3:12393695; SignaLink3:23414611; SignaLink3:8478617; SignaLink3:8642247; Lit-BM-17:9185620; SPIKE_LC:16189514; Lit-BM-17:8901551; SignaLink3:23508573; SignaLink3:11353765; SignaLink3:17371980; SignaLink3:10562324; SignaLink3:24378531; ELM:7761456; IntAct:7509083; HINT:7528772; ELM:9295038; SignaLink3:15099567; Lit-BM-17:20637659; SPIKE:8366117; IntAct:10704231; SignaLink3:16713974; HINT:7509083; Lit-BM-17:8648092; Lit-BM-17:8906806; SignaLink3:7600293; Lit-BM-17:11353765; SignaLink3:12415267; IntAct:10752619; SignaLink3:12811837; SignaLink3:11438547; Lit-BM-17:15832366; IntAct:9185620; SignaLink3:8344348; SignaLink3:26192618; SignaLink3:23886063; SignaLink3:8551221; HINT:9185620; SignaLink3:18768831; SignaLink3:10358158; Lit-BM-17:7737297; SignaLink3:20814939
+CD247	stimulation	ZAP70
+# Reference PMID: nan
+CD80	stimulation	CD247
+# Reference PMID: InnateDB:7522230; ELM:9295038; ELM:7761456
+CD247	stimulation	SYK
+# Reference PMID: nan
+CD247	stimulation	PIK3R1
+# Reference PMID: ProtMapper:28736554
+CD247	inhibition	LCP2
+# Reference PMID: nan
+CD247	stimulation	JUN
+# Reference PMID: nan
+CD28	stimulation	SYK
+# Reference PMID: nan
+CD28	stimulation	CD40LG
+# Reference PMID: nan
+CD28	inhibition	HLA-A
+# Reference PMID: nan
+HLA-A	inhibition	CD28
+# Reference PMID: nan
+CD28	stimulation	PIK3CD
+# Reference PMID: SPIKE_LC:8146197; HINT:7509360; SPIKE:8146197; HPRD:8080844; NetPath:8146197; HPRD:7509360; HINT:8080844
+CD28	stimulation	PIK3R2
+# Reference PMID: HINT:24475931; SPIKE:9694876; HINT:9694876; SPIKE:21487479; HINT:24098653; HINT:27927989; HPRD:7737275; HINT:7737275; SPIKE_LC:18829987; SPIKE_LC:21487479; ELM:27927989; HPRD:8576157; SIGNOR:24098653; BioGRID:8576157; HPRD:9694876; HINT:7584133; HINT:8576157; SPIKE_LC:9694876; SIGNOR:7737275; BioGRID:9694876; ELM:24098653; SPIKE:18829987
+CD28	stimulation	GRB2
+# Reference PMID: nan
+CD28	stimulation	NFKB1
+# Reference PMID: nan
+CD4	stimulation	PTPN6
+# Reference PMID: nan
+GNAI2	inhibition	CD4
+# Reference PMID: nan
+CD4	stimulation	FOS
+# Reference PMID: nan
+CD4	stimulation	CD80
+# Reference PMID: nan
+CD80	inhibition	CD4
+# Reference PMID: HPRD:8246987
+CD4	stimulation	PIK3R1
+# Reference PMID: nan
+TYK2	stimulation	CD4
+# Reference PMID: nan
+CD4	stimulation	KLRK1
+# Reference PMID: nan
+CD8A	stimulation	PIK3R1
+# Reference PMID: HPRD:10809759
+HLA-E	stimulation	CD8A
+# Reference PMID: nan
+CD8A	stimulation	LCP2
+# Reference PMID: nan
+CD8A	stimulation	JUN
+# Reference PMID: nan
+CD8B	stimulation	LCP2
+# Reference PMID: nan
+CD8B	stimulation	JUN
+# Reference PMID: nan
+LCK	inhibition	IL2
+# Reference PMID: KEA:10488096; HPRD:12468540; HPRD:8692915; HINT:10617656; SignaLink3:23109003; ProtMapper:8114715; KEA:8114715; HPRD-phos:16497976; ProtMapper:10488096; HPRD:8114715; ProtMapper:23071622; HPRD:10488096; IntAct:19167335; SignaLink3:12459785; SIGNOR:8114715; iPTMnet:7512963; phosphoELM:8114715; SPIKE_LC:16189514; HPRD:11294838; HPRD-phos:7512963; BioGRID:11294838; HPRD:10574931; KEA:8692915; KEA:7512963; KEA:14699166; SignaLink3:16231973; BioGRID:8114715; HINT:8114715; HPRD-phos:8114715; HPRD:7512963; HINT:11294838; ProtMapper:7512963; KEA:12468540; ProtMapper:16497976; phosphoELM:10488096; IntAct:8114715; KEA:14757045; KEA:10574931; ProtMapper:32439954
+LCK	stimulation	PTPN6
+# Reference PMID: KEA:11994282; KEA:9890970; DOMINO:7721825; KEA:17570479; KEA:9102067; HINT:34831026; SPIKE:8621719; KEA:10092522; HPRD:9178909; KEA:10799548; KEA:9525940; KEA:11997497; HPRD:11904433; HINT:8900205; KEA:11239464; HINT:8626543; NetPath:8621719; IntAct:7721825; KEA:10934191; KEA:12522270; HINT:16107303; BioGRID:11904433; SPIKE_LC:7721825; IntAct:8621719; KEA:10829062; HINT:7721825; SPIKE:7721825; SPIKE_LC:8621719; HPRD:11741956; HINT:8621719; KEA:12604776; IntAct:16107303
+LCK	stimulation	CBL
+# Reference PMID: ProtMapper:11160627
+GNAI2	stimulation	LCK
+# Reference PMID: nan
+CD80	inhibition	LCK
+# Reference PMID: nan
+IL12B	stimulation	LCK
+# Reference PMID: PhosphoSite:24863062; KEA:15735648; SIGNOR:15735648
+LCK	stimulation	MAPK14
+# Reference PMID: DOMINO:10556826; HPRD:8702662; SPIKE:10648627; iPTMnet:8702662; Lit-BM-17:10556826; Lit-BM-17:21725281; ProtMapper:8702662; SPIKE_LC:10556826; SIGNOR:8702662; HINT:21725281; HPRD-phos:8702662; HPRD:16354835; phosphoELM:8702662; SPIKE_LC:10648627; KEA:8702662; HINT:10556826
+LCK	stimulation	LCP2
+# Reference PMID: SPIKE:8397196; SPIKE_LC:8397196; NetPath:14583609
+LCK	stimulation	PIK3R2
+# Reference PMID: nan
+LCK	stimulation	GRB2
+# Reference PMID: nan
+LCK	stimulation	PRKCB
+# Reference PMID: KEA:8226850; SIGNOR:8618896; iPTMnet:8506364; PhosphoSite:8618896; HPRD:8506364; HPRD-phos:8618896; KEA:8506364; phosphoELM:8506364; KEA:8618896; ProtMapper:8506364; HPRD:8618896; PhosphoSite:8226850; PhosphoSite:7597029; HPRD-phos:8506364; ProtMapper:8618896; phosphoELM:8226850
+MAPK3	stimulation	LCK
+# Reference PMID: SPIKE_LC:16189514; KEA:17570479; HPRD:11278738; ProtMapper:10889465
+LCK	inhibition	JAK3
+# Reference PMID: PhosphoSite:31697835; PhosphoSite:25885255; PhosphoSite:19923221; PhosphoSite:12060651; PhosphoSite:12879454; PhosphoSite:22177802; PhosphoSite:12970160; PhosphoSite:12456798; PhosphoSite:18250158; PhosphoSite:11254359; PhosphoSite:22442148; PhosphoSite:29228564; PhosphoSite:9813040; PhosphoSite:34021045; PhosphoSite:9573010; PhosphoSite:11641791; PhosphoSite:21716071; PhosphoSite:20667852; HPRD:10825200; PhosphoSite:14522994; PhosphoSite:11046040
+LCK	stimulation	STAT5A
+# Reference PMID: nan
+TYK2	stimulation	LCK
+# Reference PMID: KEA:17570479
+LCK	inhibition	JAK1
+# Reference PMID: nan
+CD80	stimulation	ZAP70
+# Reference PMID: SPIKE_LC:17038529; SPIKE:17038529
+ZAP70	stimulation	PIK3R1
+# Reference PMID: nan
+ZAP70	stimulation	PIK3R2
+# Reference PMID: nan
+CSK	stimulation	ITK
+# Reference PMID: nan
+CD80	stimulation	ITK
+# Reference PMID: nan
+SYK	stimulation	ITK
+# Reference PMID: HPRD:9891970; SPIKE_LC:16189514; CellTalkDB:16938345; KEA:10811803; KEA:11368773; ProtMapper:24782869
+SYK	stimulation	LAT
+# Reference PMID: SPIKE_LC:16713569; HINT:11368773; SignaLink3:14696041; SignaLink3:19132916; SignaLink3:23109003; SIGNOR:11368773; HINT:7544353; NetPath:9489702; HINT:10811803
+LAT	stimulation	PIK3R1
+# Reference PMID: HINT:7516467; Lit-BM-17:11368773; SPIKE_LC:16938345; Lit-BM-17:10811803; SIGNOR:23150273; SPIKE:16906159; NetPath:12186560; HINT:9489702; HINT:10811803; SIGNOR:10811803; Lit-BM-17:8063801; SPIKE_LC:12186560; DIP:16906159; Lit-BM-17:9489702; Lit-BM-17:16938345; HPRD:16906159; HINT:16906159; SPIKE_LC:16713569; IntAct:16938345; IntAct:10811803; IntAct:9489702; NetPath:17043143; SPIKE_LC:16906159; SPIKE:16713569; SPIKE:16938345; HPRD:9489702; Lit-BM-17:12186560; SPIKE:12186560; HINT:8063801; HINT:7510700; IntAct:16906159; HINT:16938345; BioGRID:8063801; HINT:12186560; Lit-BM-17:16906159
+LAT	stimulation	GRB2
+# Reference PMID: HPRD:7522165; NetPath:7522165; SPIKE_LC:9233603; SPIKE:9233603
+IL7R	stimulation	PIK3R1
+# Reference PMID: SPIKE_LC:6815536; HPRD:1993646; InnateDB:12649439; HINT:15933202; connectomeDB2020:15265897; InnateDB:15178252; HINT:36459543; InnateDB:8894436; HINT:1993646; HINT:3095922; HINT:12649439; HINT:8580082; CellTalkDB:15265897; NetPath:3116143; HINT:16477002; InnateDB:6815536; IntAct:17032757; InnateDB:8580082; HINT:1940342; HINT:35631447; HINT:8894436; InnateDB:1940342; SIGNOR:16477002; Baccin2019:1993646; HPMR:15933202; LRdb:15265897; HINT:16293754; HINT:15178252; SPIKE:6815536; DIP:17032757; HINT:8960125; HPMR:15265897; Baccin2019:15265897; InnateDB:8960125; InnateDB:3095922; connectomeDB2020:1993646; LRdb:2; HINT:6815536; NetPath:8260650
+IL2	stimulation	IL2RA
+# Reference PMID: nan
+PTPN6	inhibition	IL2RA
+# Reference PMID: nan
+CBL	inhibition	IL2RA
+# Reference PMID: nan
+FOS	stimulation	IL2RA
+# Reference PMID: nan
+SOCS3	inhibition	IL2RA
+# Reference PMID: nan
+IL2RA	stimulation	MAPK14
+# Reference PMID: nan
+IL2RA	stimulation	JAK3
+# Reference PMID: nan
+IL2RA	stimulation	TYK2
+# Reference PMID: nan
+IL2RA	stimulation	JAK1
+# Reference PMID: nan
+JAK1	inhibition	IL2RA
+# Reference PMID: HPRD:11886175; HINT:23104097; InnateDB:15178252; HINT:28405498; HINT:1545122; Lit-BM-17:10903799; HINT:16477002; SPIKE_LC:11851401; SPIKE:16189514; SPIKE_LC:16189514; HINT:8026467; NetPath:7514277; InnateDB:1545122; InnateDB:8568232; HINT:10903799; HINT:22446627; DIP:10903799; HINT:16293754; SPIKE:11851401; InnateDB:8026467; DIP:8006584; NetPath:8026467; HINT:20816854; InnateDB:7681595; Lit-BM-17:8006584; NetPath:8260650; HINT:7681595
+IL2RB	inhibition	IL2RG
+# Reference PMID: HPRD:11886175; HINT:23104097; InnateDB:15178252; HINT:28405498; HINT:1545122; Lit-BM-17:10903799; HINT:16477002; SPIKE_LC:11851401; SPIKE:16189514; SPIKE_LC:16189514; HINT:8026467; NetPath:7514277; InnateDB:1545122; InnateDB:8568232; HINT:10903799; HINT:22446627; DIP:10903799; HINT:16293754; SPIKE:11851401; InnateDB:8026467; DIP:8006584; NetPath:8026467; HINT:20816854; InnateDB:7681595; Lit-BM-17:8006584; NetPath:8260650; HINT:7681595
+IL2RG	inhibition	IL2RB
+# Reference PMID: nan
+IL2RB	stimulation	PRF1
+# Reference PMID: nan
+IL2RB	stimulation	GZMB
+# Reference PMID: SPIKE:9520455; SPIKE:9973481; SIGNOR:9520455; NetPath:9520455; SPIKE_LC:9973481; SPIKE_LC:9520455; HPRD:9520455; InnateDB:9520455
+PTPN6	inhibition	IL2RB
+# Reference PMID: nan
+CBL	inhibition	IL2RB
+# Reference PMID: HPRD:10373548; SPIKE_LC:10373548; NetPath:10373548; SPIKE:10373548; InnateDB:10373548
+IL2RB	stimulation	SOCS3
+# Reference PMID: nan
+IL2RB	stimulation	MAPK14
+# Reference PMID: SPIKE_LC:16189514; HPRD:10602027
+IL2RB	stimulation	GRB2
+# Reference PMID: SPIKE:7973657; BioGRID:9553136; SPIKE_LC:7973657; SPIKE_LC:8700888; SIGNOR:8700888; InnateDB:10373548; HINT:8700888; KEA:7499411; HINT:8041779; DIP:7973658; HINT:7973657; BioGRID:9774657; HPRD:7973659; NetPath:7973659; InnateDB:12133952; InnateDB:8041779; HINT:12133952; HPRD-phos:8700888; iPTMnet:8700888; HINT:7973659; ProtMapper:8700888; InnateDB:7973657; HINT:10373548; KEA:8700888; SPIKE:8700888; KEA:8643566; HPRD:12133952; HPRD:8700888
+JAK1	stimulation	IL2RB
+# Reference PMID: HINT:23104097; IntAct:25416956; connectomeDB2020:15265897; HPRD:9176231; connectomeDB2020:8026467; Guide2Pharma:19710453; Lit-BM-17:10903799; CellTalkDB:15265897; LRdb:9176231; SPIKE_LC:16189514; IntAct:23104097; Baccin2019:8026467; HINT:10903799; LRdb:15265897; InnateDB:8026467; NetPath:8026467; Baccin2019:9176231; HPMR:15265897; Baccin2019:15265897; connectomeDB2020:9176231; LRdb:8026467; HPRD:8026467; InnateDB:8178155; DIP:10903799
+IL15	stimulation	IL2RB
+# Reference PMID: nan
+IL2RG	stimulation	GZMB
+# Reference PMID: nan
+PTPN6	inhibition	IL2RG
+# Reference PMID: nan
+IL2RG	stimulation	CBL
+# Reference PMID: nan
+CBL	inhibition	IL2RG
+# Reference PMID: SPIKE_LC:10421845; SPIKE:10421845
+IL2RG	stimulation	PIK3R1
+# Reference PMID: LRdb:7522165; CellTalkDB:11858939; SPIKE_LC:17145710; SIGNOR:11418623; DIP:8128231; LRdb:11858939; Baccin2019:11858939; connectomeDB2020:7522165; connectomeDB2020:11858939; Baccin2019:9010926; HPMR:7522165; InnateDB:8266077; HINT:8266077; HPRD:11858939; HPMR:8128231; SIGNOR:20089933; HINT:9371812; DIP:9371812; Lit-BM-17:8128231; connectomeDB2020:9010926; Lit-BM-17:9371812; LRdb:9010926; HPRD:9010926; Baccin2019:7522165
+IL7	stimulation	IL2RG
+# Reference PMID: nan
+SOCS3	inhibition	IL2RG
+# Reference PMID: nan
+IL2RG	stimulation	MAPK14
+# Reference PMID: SPIKE_LC:10421845; SPIKE:10421845
+IL2RG	stimulation	PIK3R2
+# Reference PMID: nan
+IL2RG	stimulation	GRB2
+# Reference PMID: nan
+IL2RG	stimulation	PRKCB
+# Reference PMID: nan
+IL2RG	stimulation	MAPK8
+# Reference PMID: SignaLink3:23331499; InnateDB:7973657; SPIKE_LC:7973658; NetPath:7973658; NetPath:7973659; SignaLink3:7973659; SPIKE:7973658; SPIKE:16189514; NetPath:10856136; DIP:7973658; SPIKE_LC:16189514; HINT:10629052; InnateDB:10629052; NetPath:15621723; SIGNOR:18445337; HINT:7973657; SignaLink3:7973658; HPRD:7973658
+IL2RG	stimulation	JAK3
+# Reference PMID: SPIKE_LC:8580378; SignaLink3:23331499; SPIKE:8580378; HPRD:7973658; SignaLink3:7721895; SignaLink3:7973658; NetPath:7973658
+IL2RG	stimulation	JAK1
+# Reference PMID: nan
+IL2RG	stimulation	STAT6
+# Reference PMID: HINT:23104097; Baccin2019:78568232; Lit-BM-17:8178155; connectomeDB2020:15265897; SIGNOR:11418623; DIP:8178155; Guide2Pharma:19710453; Lit-BM-17:10903799; CellTalkDB:15265897; connectomeDB2020:8568232; SPIKE_LC:16189514; HPRD:8568232; HINT:10903799; Baccin2019:1526589; Cellinker:8568232; LRdb:15265897; HINT:9371812; DIP:9371812; NetPath:8026467; HPMR:15265897; Lit-BM-17:9371812; LRdb:86; Cellinker:15265897; scConnect:19710453; DIP:10903799
+IL15	stimulation	IL2RG
+# Reference PMID: nan
+CXCL12	stimulation	CCR7
+# Reference PMID: SPIKE:10890911; SignaLink3:23331499; SPIKE_LC:10890911; NetPath:10890911; SignaLink3:10890911; CancerCellMap:10890911; SignaLink3:18988627; SignaLink3:21071413; HPRD:10890911
+SMAD4	stimulation	LEF1
+# Reference PMID: nan
+IL12B	stimulation	TBX21
+# Reference PMID: nan
+IL12A	stimulation	TBX21
+# Reference PMID: nan
+TYK2	stimulation	TBX21
+# Reference PMID: nan
+TGFB1	stimulation	FOXP3
+# Reference PMID: nan
+IL12B	inhibition	EOMES
+# Reference PMID: nan
+HLA-A	stimulation	EOMES
+# Reference PMID: nan
+TYK2	inhibition	EOMES
+# Reference PMID: nan
+IL2	stimulation	PRF1
+# Reference PMID: nan
+CD80	stimulation	PRF1
+# Reference PMID: nan
+IL12B	stimulation	GZMA
+# Reference PMID: nan
+TYK2	stimulation	GZMA
+# Reference PMID: nan
+LBR	stimulation	GZMB
+# Reference PMID: nan
+IL12B	stimulation	GZMB
+# Reference PMID: nan
+IL12A	stimulation	GZMB
+# Reference PMID: nan
+CXCL12	stimulation	GZMB
+# Reference PMID: nan
+TYK2	stimulation	GZMB
+# Reference PMID: nan
+IL2	stimulation	IFNG
+# Reference PMID: nan
+PTPN6	inhibition	IFNG
+# Reference PMID: nan
+FOS	stimulation	IFNG
+# Reference PMID: nan
+CD80	stimulation	IFNG
+# Reference PMID: nan
+IL23A	stimulation	IFNG
+# Reference PMID: nan
+IFNG	stimulation	PIK3R1
+# Reference PMID: nan
+LBR	stimulation	IFNG
+# Reference PMID: nan
+IFNG	inhibition	IL7
+# Reference PMID: nan
+TGFB1	inhibition	IFNG
+# Reference PMID: nan
+IFNG	stimulation	IL6
+# Reference PMID: nan
+IL12B	stimulation	IFNG
+# Reference PMID: nan
+IFNG	stimulation	CD40LG
+# Reference PMID: nan
+NOTCH1	stimulation	IFNG
+# Reference PMID: nan
+IL12A	stimulation	IFNG
+# Reference PMID: nan
+IFNG	stimulation	CXCL12
+# Reference PMID: HPRD:3139842
+IFNG	stimulation	TNF
+# Reference PMID: nan
+MAPK3	stimulation	IFNG
+# Reference PMID: ProtMapper:9454765
+IFNG	stimulation	STAT5A
+# Reference PMID: nan
+STAT4	stimulation	IFNG
+# Reference PMID: nan
+CXCL10	stimulation	IFNG
+# Reference PMID: nan
+IFNG	inhibition	STAT6
+# Reference PMID: nan
+STAT6	inhibition	IFNG
+# Reference PMID: nan
+IFNG	stimulation	IL1B
+# Reference PMID: nan
+IFNA13	stimulation	IFNG
+# Reference PMID: nan
+IL15	stimulation	IFNG
+# Reference PMID: nan
+ATF2	stimulation	IFNG
+# Reference PMID: nan
+IL2	stimulation	PTPN6
+# Reference PMID: nan
+IL2	stimulation	CBL
+# Reference PMID: nan
+FOS	stimulation	IL2
+# Reference PMID: nan
+LBR	stimulation	IL2
+# Reference PMID: nan
+IL2	inhibition	IL7
+# Reference PMID: nan
+HLA-A	stimulation	IL2
+# Reference PMID: nan
+SOCS3	inhibition	IL2
+# Reference PMID: nan
+IL2	stimulation	CXCL12
+# Reference PMID: nan
+IL2	stimulation	MAPK14
+# Reference PMID: nan
+IL2	stimulation	GRB2
+# Reference PMID: nan
+IL2	stimulation	PRKCB
+# Reference PMID: nan
+IL2	stimulation	MAPK8
+# Reference PMID: nan
+IL2	stimulation	STAT5A
+# Reference PMID: nan
+TYK2	inhibition	IL2
+# Reference PMID: nan
+JAK1	inhibition	IL2
+# Reference PMID: nan
+IL2	stimulation	JUN
+# Reference PMID: nan
+NFKB1	stimulation	IL2
+# Reference PMID: nan
+IL2	stimulation	STAT6
+# Reference PMID: nan
+IL2	stimulation	IL1B
+# Reference PMID: HPRD:3262520
+IFNA13	stimulation	IL2
+# Reference PMID: nan
+IL15	stimulation	IL2
+# Reference PMID: nan
+ATF2	stimulation	IL2
+# Reference PMID: nan
+IL4	stimulation	PIK3R1
+# Reference PMID: nan
+NOTCH1	stimulation	IL4
+# Reference PMID: nan
+IL4	stimulation	MAPK14
+# Reference PMID: nan
+PTPN1	inhibition	IL4
+# Reference PMID: nan
+IL4	stimulation	STAT5A
+# Reference PMID: ProtMapper:7594594; ProtMapper:9038232; ProtMapper:8943050; ProtMapper:10198225; ProtMapper:9454765; ProtMapper:7528775
+IL4	inhibition	TYK2
+# Reference PMID: nan
+IL4	stimulation	JUN
+# Reference PMID: nan
+IL4	inhibition	IL1B
+# Reference PMID: nan
+IFNA13	stimulation	IL4
+# Reference PMID: nan
+IL23A	stimulation	IL17A
+# Reference PMID: nan
+IL6	stimulation	IL17A
+# Reference PMID: nan
+IL17A	stimulation	NFKB1
+# Reference PMID: HINT:27135603; NetPath:16217039; SIGNOR:18641334; IntAct:27135603; SPIKE:16217039; HINT:18641334; SPIKE_LC:16217039; InnateDB:18641334
+ICOS	stimulation	PIK3R1
+# Reference PMID: NetPath:16217039; SPIKE_LC:16217039; SPIKE:16217039
+ICOS	stimulation	PIK3R2
+# Reference PMID: ProtMapper:11201744; HPRD:11201744; SIGNOR:11201744; DEPOD:11201744
+PTPRC	inhibition	TYK2
+# Reference PMID: Adhesome:11157475; Adhesome:12176909; HPRD:12176909
+PTPN6	inhibition	CBL
+# Reference PMID: Adhesome:10458769; Adhesome:11356834; SIGNOR:10458769; Adhesome:12763134; Adhesome:10072516; HINT:10072516; HPRD:10072516; Adhesome:10592173; ProtMapper:9058799; HINT:10871605; SPIKE_LC:16189514; InnateDB:12763134; Adhesome:10747947; HPRD:11356834
+PTPN6	inhibition	SYK
+# Reference PMID: Lit-BM-17:11160222; SignaLink3:21780115; HINT:9452499; NetPath:9065461; HINT:11160222; SignaLink3:23109003; HPRD:11160222; SignaLink3:11526404; SignaLink3:22880054; SignaLink3:15032589; SignaLink3:10488096; HINT:10488096; Lit-BM-17:10488096; HPRD:11337495
+PTPN6	inhibition	PIK3R1
+# Reference PMID: nan
+HLA-A	stimulation	PTPN6
+# Reference PMID: nan
+PTPN6	inhibition	SOCS3
+# Reference PMID: SIGNOR:31130074; InnateDB:17079228
+PTPN6	inhibition	MAP3K7
+# Reference PMID: HINT:8760799; SPIKE:15668918; SPIKE_LC:15668918; BioGRID:9765283; SPIKE_LC:16189514; HPRD:8760799; HPRD:9765283; HINT:9765283; HPRD:15588985
+PTPN6	inhibition	LCP2
+# Reference PMID: SignaLink3:16231973; SignaLink3:12459785; SignaLink3:23109003
+MAPK3	inhibition	PTPN6
+# Reference PMID: HPRD:7629131; SPIKE_LC:16189514; HPRD:8780698; InnateDB:8524272
+PTPN6	inhibition	TYK2
+# Reference PMID: ProtMapper:18617527; SIGNOR:18617527
+CDK2	inhibition	PTPN6
+# Reference PMID: HPRD:11786908
+FAS	stimulation	PTPN6
+# Reference PMID: nan
+GNAI2	stimulation	CSK
+# Reference PMID: nan
+CSK	stimulation	PIK3R1
+# Reference PMID: nan
+HLA-A	inhibition	CSK
+# Reference PMID: SIGNOR:22479394
+CSK	stimulation	NOTCH1
+# Reference PMID: nan
+CSK	stimulation	PIK3CD
+# Reference PMID: nan
+CSK	stimulation	PIK3R2
+# Reference PMID: SIGNOR:28676638
+CBL	inhibition	JAK2
+# Reference PMID: SIGNOR:11526404; HINT:9259313; IntAct:16982329; HPRD:8621719; IntAct:8662998; Lit-BM-17:8695807; HINT:8941725; SignaLink3:22315502; Lit-BM-17:21203488; NetPath:19531499; HPRD:8662998; HINT:15581361; Lit-BM-17:9092538; SPIKE_LC:9461587; Lit-BM-17:11087752; BioGRID:8702998; ACSN:17635922; HINT:9160881; Lit-BM-17:9890970; Lit-BM-17:15107835; Lit-BM-17:17237826; IntAct:7642581; Lit-BM-17:11418612; Lit-BM-17:9988765; SignaLink3:23109003; Lit-BM-17:9259313; BioGRID:8695807; Lit-BM-17:10620516; SignaLink3:17722974; HINT:15556646; SPIKE:7642581; NetPath:9414268; Lit-BM-17:18374639; DOMINO:15556646; Lit-BM-17:10358153; Lit-BM-17:9160881; SignaLink3:15790353; HINT:9174058; SignaLink3:16107703; SPIKE:9461587; Lit-BM-17:11994282; IntAct:9160881; BioGRID:11087752; Lit-BM-17:19861161; Lit-BM-17:24113870; HPRD:11133830; Lit-BM-17:19190244; SPIKE_LC:7642581; Lit-BM-17:7791764; HPRD:9234717; IntAct:9890970; Lit-BM-17:8896416; NetPath:8621719; Lit-BM-17:10918571; HINT:16219545; NetPath:9461587; BioGRID:8995243; BioGRID:11030146; Lit-BM-17:16135792; IntAct:15581361; IntAct:16219545; Lit-BM-17:15581361; HINT:11944898; HINT:16135792; NetPath:8662998; NetPath:8995358; Lit-BM-17:8612729; Lit-BM-17:11042121; Lit-BM-17:9461587; HINT:11030146; HINT:14530346; NetPath:9092574; Lit-BM-17:11157475; Lit-BM-17:16982329; HINT:10918571; Lit-BM-17:8941725; IntAct:8621719; Lit-BM-17:15556646; DIP:9178909; HINT:16982329; SPIKE:16713569; IntAct:15556646; Lit-BM-17:16219545; ACSN:10514377; Lit-BM-17:7642581; BioGRID:10620516; HPRD:7642581; Lit-BM-17:8662998; HINT:8621719; Lit-BM-17:19380743; HINT:9890943; Lit-BM-17:9890943; HINT:9890970; Lit-BM-17:25814554; HINT:8612729; Lit-BM-17:9174058; NetPath:11406619; SignaLink3:8080844; Lit-BM-17:10025673; Lit-BM-17:9414268; DOMINO:16219545; Lit-BM-17:14530346; Lit-BM-17:8621719; CancerCellMap:9092574; HINT:8662998; Lit-BM-17:8995243; SPIKE_LC:16713569; Lit-BM-17:9178909; Lit-BM-17:9541596; HINT:24113870; HINT:7642581; Lit-BM-17:16289966; HPRD:16219545; BioGRID:9414268; Lit-BM-17:8702998; Lit-BM-17:11944898; Lit-BM-17:9918857; Lit-BM-17:11030146
+CBL	inhibition	PIK3R1
+# Reference PMID: nan
+SOCS3	inhibition	CBL
+# Reference PMID: ACSN:17635922; ACSN:10514377
+CBL	stimulation	PIK3CD
+# Reference PMID: SIGNOR:11526404; Lit-BM-17:19380743; NetPath:9461587; HINT:8632906; Lit-BM-17:25814554; NetPath:11406619; NetPath:9414268; HINT:7629144; HINT:8941725; NetPath:8662998; NetPath:8995358; Lit-BM-17:11133830; BioGRID:7629144; CancerCellMap:9092574; CancerCellMap:8662998; NetPath:19531499; Lit-BM-17:7629144; IntAct:25814554; SPIKE:9461587; NetPath:9092574; SPIKE_LC:9461587; HINT:7791764; ACSN:17635922; Lit-BM-17:19190244; ACSN:10514377; HPRD:7629144; HINT:8621719; NetPath:8621719; Lit-BM-17:15107835
+CBL	inhibition	PIK3R2
+# Reference PMID: Lit-BM-17:7592693; HPRD:917890; Adhesome:16906159; HINT:11997436; HPRD:9108316; Lit-BM-17:12839496; HPRD:11964172; Lit-BM-17:25872741; Adhesome:9108392; HINT:8083187; Lit-BM-17:10086340; Adhesome:20936779; Lit-BM-17:14725908; HINT:10829062; Lit-BM-17:8950973; Adhesome:9716598; Adhesome:8083187; HINT:9108392; Lit-BM-17:9129019; HPRD:16906159; Lit-BM-17:9108392; Lit-BM-17:11399323; DIP:8950973; Lit-BM-17:9234717; NetPath:19531499; IntAct:25814554; Lit-BM-17:9434624; NetPath:8950973; HINT:11792427; Lit-BM-17:9092538; Adhesome:9233773; HINT:9461587; Lit-BM-17:17971399; Lit-BM-17:10204582; IntAct:20936779; Adhesome:12839496; ACSN:17635922; Adhesome:9872323; HINT:8824292; Lit-BM-17:18273061; HINT:17094785; HINT:11399323; Lit-BM-17:9716598; Lit-BM-17:8626404; Adhesome:8995358; HINT:9242692; Lit-BM-17:20936779; BioGRID:8695851; IntAct:18273061; HINT:8647120; IntAct:15677445; Lit-BM-17:10570290; HINT:9367879; Adhesome:17971399; IntAct:7642581; NetPath:17904548; HINT:8950973; Lit-BM-17:9233773; Lit-BM-17:15210722; Lit-BM-17:8083187; HINT:9872323; Adhesome:9242692; HINT:21706016; HPRD:18273061; Lit-BM-17:9259313; Adhesome:9129019; HINT:23799367; SPIKE:7642581; Adhesome:10570290; Lit-BM-17:9872323; HPRD:98621719; Lit-BM-17:8943292; Adhesome:18273061; Lit-BM-17:8900205; HPRD:169092; HPRD:8621483; LMPID:7592693; Lit-BM-17:17072306; HINT:9174058; Adhesome:19380743; Adhesome:9851874; BioGRID:8649804; Lit-BM-17:11997436; BioGRID:12839496; SPIKE_LC:8950973; Adhesome:20124286; Adhesome:8695851; HINT:10521482; Lit-BM-17:9851874; HPRD:11133830; SPIKE_LC:7642581; Lit-BM-17:7791764; Adhesome:7642581; LMPID:7791764; Adhesome:23799367; Lit-BM-17:7537740; HPRD:9234717; Lit-BM-17:15677445; NetPath:8621719; Adhesome:8621719; Adhesome:9174058; SPIKE:8950973; Adhesome:15210722; NetPath:9461587; Adhesome:9541596; Lit-BM-17:20124286; Adhesome:10829062; Adhesome:12941616; Adhesome:9434624; BioGRID:9108392; SPIKE:8621719; Lit-BM-17:11823423; Adhesome:11964172; Adhesome:8950973; Lit-BM-17:11792427; Lit-BM-17:9242692; Lit-BM-17:10521482; DIP:16906159; HINT:15782196; NetPath:8662998; NetPath:8995358; Lit-BM-17:9461587; Adhesome:9178909; HINT:33961781; HINT:18273061; Adhesome:8943292; HINT:7791764; Adhesome:9311917; HINT:9233773; ELM:11314042; HINT:12839496; Lit-BM-17:19836242; SPIKE:16713569; IntAct:17094785; Lit-BM-17:25036637; HPRD:8995445; Adhesome:15677445; ACSN:10514377; Adhesome:17372273; Lit-BM-17:7642581; Lit-BM-17:17094785; Adhesome:9367879; Adhesome:9590251; Lit-BM-17:8662998; Lit-BM-17:11964172; Lit-BM-17:8649804; Lit-BM-17:16906159; Lit-BM-17:19380743; Lit-BM-17:12941616; HINT:8626404; Lit-BM-17:10829062; HINT:14725908; Adhesome:10086340; Adhesome:11823423; DOMINO:7642581; Lit-BM-17:11263968; Adhesome:10025673; Lit-BM-17:25814554; Lit-BM-17:9174058; HINT:8900205; Lit-BM-17:10025673; Lit-BM-17:21706016; Lit-BM-17:8824292; Lit-BM-17:8621719; Adhesome:17072306; HINT:8662998; HPRD:9295052; HINT:16906159; Lit-BM-17:8995358; SPIKE_LC:16713569; Lit-BM-17:9178909; Lit-BM-17:9541596; Adhesome:9234717; Lit-BM-17:9367879; DOMINO:15677445; BioGRID:8083187; Adhesome:10204582; HPRD:8063801; Lit-BM-17:8695851; HINT:7642581; NetPath:8626404; Adhesome:7791764; Adhesome:9461587; Lit-BM-17:9311917; Adhesome:11997436; Lit-BM-17:17944804; Lit-BM-17:23799367; HINT:15677445; SPIKE_LC:8621719; Adhesome:17094785; HPRD:14725908; BioGRID:11823423
+CBL	stimulation	GRB2
+# Reference PMID: nan
+CBL	inhibition	JAK3
+# Reference PMID: nan
+JAK3	stimulation	CBL
+# Reference PMID: HPRD:8780698
+CBL	inhibition	TYK2
+# Reference PMID: nan
+CBL	inhibition	JAK1
+# Reference PMID: nan
+JAK1	stimulation	CBL
+# Reference PMID: nan
+GNAI2	stimulation	PIK3R1
+# Reference PMID: SignaLink3:10644702; SignaLink3:17084806; SignaLink3:18538863; SIGNOR:33073183; SignaLink3:15337520; SignaLink3:16183910; SignaLink3:23109003; SignaLink3:10508237
+CXCR4	stimulation	GNAI2
+# Reference PMID: nan
+CXCL12	stimulation	GNAI2
+# Reference PMID: nan
+GNAI2	stimulation	HRAS
+# Reference PMID: nan
+GNAI2	stimulation	PIK3CD
+# Reference PMID: nan
+GNAI2	stimulation	MAPK14
+# Reference PMID: nan
+GNAI2	stimulation	PIK3R2
+# Reference PMID: nan
+GNAI2	stimulation	MAPK8
+# Reference PMID: nan
+GNAI2	stimulation	MAPK3
+# Reference PMID: nan
+JAK2	stimulation	FOS
+# Reference PMID: nan
+SYK	inhibition	FOS
+# Reference PMID: nan
+FOS	stimulation	TGFB1
+# Reference PMID: nan
+FOS	stimulation	IL6
+# Reference PMID: nan
+FOS	stimulation	IL12B
+# Reference PMID: nan
+IL12B	stimulation	FOS
+# Reference PMID: nan
+FOS	stimulation	CD40LG
+# Reference PMID: NetPath:9732876; SignaLink3:10942775; SignaLink3:23331499; CancerCellMap:9732876
+SMAD4	stimulation	FOS
+# Reference PMID: nan
+NOTCH1	inhibition	FOS
+# Reference PMID: nan
+FOS	stimulation	ESR1
+# Reference PMID: nan
+FOS	stimulation	IL12A
+# Reference PMID: nan
+IL12A	stimulation	FOS
+# Reference PMID: SPIKE:18253836; SPIKE_LC:18253836
+MAPK14	stimulation	FOS
+# Reference PMID: nan
+FOS	stimulation	TNF
+# Reference PMID: nan
+MAPK8	stimulation	FOS
+# Reference PMID: ACSN:12697810; ACSN:16393692; PhosphoSite:16055710; ProtMapper:7816602; ACSN:15547943; ACSN:8226933; SignaLink3:23109003; dbPTM:7588633; SignaLink3:15084594; ACSN:9604935; ProtMapper:16055710; SignaLink3:17722974; ACSN:15187187; ACSN:17255949; SIGNOR:7816602; PhosphoSite:26725323; ACSN:8545107; ACSN:8388392; PhosphoSite:17018293; ProtMapper:12972619; ACSN:17439715; ACSN:12738796; SIGNOR:16055710; phosphoELM:7816602; ELM:12134156; PhosphoSite:7816602; ELM:21098038; KEA:7816602; ACSN:20506250; ACSN:19565474; SIGNOR:12972619; KEA:12134156; KEA:12972619; ACSN:11274345; phosphoELM:12972619; ACSN:18039929; ACSN:18775330; ACSN:17052211; dbPTM:12134156; ACSN:19541618
+MAPK3	stimulation	FOS
+# Reference PMID: nan
+STAT5A	stimulation	FOS
+# Reference PMID: nan
+TYK2	stimulation	FOS
+# Reference PMID: HINT:8380166; HINT:15994313; HINT:9160889; Lit-BM-17:8440710; HINT:20195357; HPRD:9346889; Lit-BM-17:9872330; HINT:18848838; CancerCellMap:9732876; HINT:18619508; HINT:11053448; Lit-BM-17:24029232; InnateDB:18535250; HINT:20102225; Lit-BM-17:16928824; Lit-BM-17:23661758; BioGRID:22719067; HINT:8440710; IntAct:31515488; NetPath:8397339; IntAct:20936779; HINT:15718494; BioGRID:11053448; NetPath:9732876; DIP:18172215; Lit-BM-17:20936779; HINT:16714286; Lit-BM-17:21675959; HINT:8816798; IntAct:8617242; Lit-BM-17:16008525; BioGRID:7816143; NetPath:10779323; HINT:26496610; IntAct:21199371; Lit-BM-17:8380166; HINT:21675959; Lit-BM-17:25609649; HPRD:16511568; HPRD:7816143; HINT:34671206; HINT:9510247; Lit-BM-17:20195357; SPIKE:8617242; SPIKE:8397339; SPIKE_LC:8397339; Lit-BM-17:8617242; Lit-BM-17:16055710; HPRD:1631061; Lit-BM-17:23602568; HINT:7816143; IntAct:20511396; HINT:15319445; Lit-BM-17:15319445; IntAct:20195357; Lit-BM-17:18848838; HINT:31182485; HINT:21199371; Lit-BM-17:26496610; HINT:11090181; HINT:8617242; HINT:23602568; HPRD:16055710; HINT:16928824; BioGRID:15718494; IntAct:23602568; HINT:33961781; IntAct:18172215; Lit-BM-17:7816143; IntAct:20102225; Lit-BM-17:17440114; SIGNOR:2516828; BioGRID:18848838; Lit-BM-17:26186194; HINT:17440114; HINT:9872330; SPIKE_LC:8617242; HINT:18641343; InnateDB:18619508; BioGRID:34671206; HINT:18172215; Lit-BM-17:20410304; Lit-BM-17:10488148; Lit-BM-17:11053448; Lit-BM-17:16714286; HINT:8816797; HINT:16008525; Lit-BM-17:9160889; Lit-BM-17:15718494; Macrophage:16055710; Lit-BM-17:11090181; Lit-BM-17:21199371; DIP:7816143; Lit-BM-17:18172215; HPRD:15867431; Lit-BM-17:15994313; IntAct:7816143; IntAct:23661758; HINT:10488148; CancerCellMap:10779323; Lit-BM-17:20498278; BioGRID:22940826; BioGRID:16008525; Lit-BM-17:20511396; Lit-BM-17:11431474; BioGRID:17440114; HINT:24029232; HINT:25132599
+FOS	stimulation	JUN
+# Reference PMID: HPRD:9468519
+NFKB1	stimulation	FOS
+# Reference PMID: nan
+FOS	stimulation	IL1B
+# Reference PMID: nan
+FOS	stimulation	IFNA13
+# Reference PMID: nan
+CD80	stimulation	PIK3R1
+# Reference PMID: nan
+CD40LG	inhibition	CD80
+# Reference PMID: nan
+CD80	inhibition	HLA-A
+# Reference PMID: nan
+HLA-A	inhibition	CD80
+# Reference PMID: nan
+CD80	stimulation	GRB2
+# Reference PMID: SPIKE_LC:17474147; HINT:10026141; HINT:16135792; NetPath:12706299; DOMINO:17474147; Lit-BM-17:17474147; HPRD:8702385; Lit-BM-17:16135792
+JAK2	stimulation	PIK3R1
+# Reference PMID: InnateDB:10506573; ProtMapper:17158356; HPRD:10506573
+CXCR4	stimulation	JAK2
+# Reference PMID: nan
+JAK2	stimulation	IL6
+# Reference PMID: nan
+IL12B	stimulation	JAK2
+# Reference PMID: NetPath:19876927; SIGNOR:21907792
+JAK2	inhibition	ESR1
+# Reference PMID: ProtMapper:25535282; HPRD-phos:7543024; CA1:7504785; SignaLink3:7690989; ProtMapper:19787091; InnateDB:14978237; SIGNOR:15322115; KEA:9355737; CA1:7504784; ProtMapper:15322115; HPRD:12817007; KEA:10918587; SignaLink3:12637327; ProtMapper:21207025; SignaLink3:18988627; KEA:11294897; HPRD-phos:12817007; ProtMapper:31506076; ProtMapper:30373602; KEA:10748192; ProtMapper:12637327; SIGNOR:21576360; KEA:11152457; HINT:14978237; HPRD:7543024; ProtMapper:7690989; HPRD:11152457; HINT:24255956; NetPath:15284024; SignaLink3:7543024; HPRD-phos:11152457; phosphoELM:14978237; HPRD-phos:15322115; HPRD:10918587; HPRD:15322115; SignaLink3:11152457; ProtMapper:7543024; ProtMapper:11294897; SignaLink3:15322115; SignaLink3:21071413; KEA:12817007; SignaLink3:12817007; HPRD:7690989; SIGNOR:7888666; KEA:11839738; Macrophage:7615558; SignaLink3:10918587; HPRD-phos:7690989; ProtMapper:19508864; SignaLink3:11839738; HPRD:7657660; KEA:7690989; InnateDB:15284024; HPRD-phos:12637327; KEA:7592750; ProtMapper:7657660; HINT:15284024; KEA:15322115; KEA:11438544; HPRD-phos:10918587; SignaLink3:20353823; HPRD:11294897; SignaLink3:14984365; ProtMapper:10918587; HPRD:11839738; phosphoELM:11438544; HPRD-phos:7657660; ProtMapper:11152457; KEA:7657660; ProtMapper:11839738; SignaLink3:23331499; ProtMapper:33731692; KEA:10982844; SignaLink3:7657660; HPRD:12637327; SignaLink3:11294897; Macrophage:7690989; ProtMapper:12817007; SignaLink3:19834108; KEA:12637327; KEA:7543024; ProtMapper:25950470; HPRD-phos:11839738; HPRD-phos:11294897; CancerCellMap:15284024
+JAK2	stimulation	STAT1
+# Reference PMID: nan
+IL12A	stimulation	JAK2
+# Reference PMID: nan
+CXCL12	stimulation	JAK2
+# Reference PMID: HPRD:11493922
+JAK2	stimulation	NFKBIA
+# Reference PMID: nan
+JAK2	stimulation	HRAS
+# Reference PMID: SIGNOR:12370803
+JAK2	stimulation	MYC
+# Reference PMID: nan
+JAK2	stimulation	PIK3CD
+# Reference PMID: NetPath:12706299
+JAK2	stimulation	PIK3R2
+# Reference PMID: HINT:8950973; HINT:8536716; Lit-BM-17:8950973; Lit-BM-17:17474147; Lit-BM-17:8536716; Lit-BM-17:7500025; HPRD:7500025; PhosphoSite:19273609
+JAK2	stimulation	GRB2
+# Reference PMID: nan
+JAK2	stimulation	TNF
+# Reference PMID: SignaLink3:8617237; KEA:11413148; Lit-BM-17:9575217; SIGNOR:9575217; HPRD-phos:16497976; ProtMapper:17016520; dbPTM:19534553; SignaLink3:7925280; HPRD-phos:7925280; SignaLink3:15795318; KEA:7925280; ProtMapper:15504549; BioGRID:34197875; SignaLink3:23331499; ProtMapper:7925280; ProtMapper:9575217; BioGRID:7925280; HPRD:7925280; ProtMapper:17389395; phosphoELM:11641791; dbPTM:12529425; dbPTM:17081983; ProtMapper:8617237; dbPTM:18083107; HPRD-phos:17389395; HPRD:8617237; SignaLink3:9575217; HPRD-phos:17016520; HPRD:11413148; HPRD:9575217; KEA:8617237; Lit-BM-17:7925280; SignaLink3:18988627; HPRD-phos:8617237; KEA:17081983; SignaLink3:21071413; KEA:15256422; SignaLink3:11413148; KEA:11641791; HPRD-phos:11413148; HINT:9047382; ProtMapper:16497976; ProtMapper:11413148; ProtMapper:28676702; ProtMapper:30847297; Lit-BM-17:9047382; HINT:7925280
+JAK2	stimulation	STAT5A
+# Reference PMID: nan
+JAK2	stimulation	TYK2
+# Reference PMID: HINT:26175413; Macrophage:7504784; HINT:32001089
+JAK2	stimulation	JAK1
+# Reference PMID: HINT:26175413; Macrophage:7504784; HINT:32001089
+JAK1	stimulation	JAK2
+# Reference PMID: nan
+JAK2	stimulation	NFKB1
+# Reference PMID: SignaLink3:23331499; SIGNOR:9852261; SignaLink3:9852261; SignaLink3:22992805; ProtMapper:10776786; SIGNOR:18852293
+JAK2	stimulation	STAT6
+# Reference PMID: ProtMapper:7594594; ProtMapper:9038232; ProtMapper:8943050; ProtMapper:10198225; ProtMapper:9454765; ProtMapper:7528775
+IL1B	stimulation	JAK2
+# Reference PMID: nan
+IL23A	stimulation	PIK3R1
+# Reference PMID: nan
+IL23A	stimulation	IL6
+# Reference PMID: nan
+IL23A	stimulation	STAT1
+# Reference PMID: nan
+IL23A	stimulation	NFKBIA
+# Reference PMID: nan
+NFKBIA	stimulation	IL23A
+# Reference PMID: nan
+IL23A	stimulation	TNF
+# Reference PMID: nan
+TNF	stimulation	IL23A
+# Reference PMID: nan
+IL23A	stimulation	STAT5A
+# Reference PMID: nan
+JUN	stimulation	IL23A
+# Reference PMID: nan
+IL23A	stimulation	STAT4
+# Reference PMID: nan
+IL23A	stimulation	NFKB1
+# Reference PMID: nan
+NFKB1	stimulation	IL23A
+# Reference PMID: nan
+IL23A	stimulation	IL1B
+# Reference PMID: nan
+IL1B	stimulation	IL23A
+# Reference PMID: nan
+ATF2	stimulation	IL23A
+# Reference PMID: InnateDB:16921024; Lit-BM-17:16921024; HINT:15536084; BioGRID:16921024; HPRD:15536084; Lit-BM-17:15536084; SPIKE_LC:15536084; HINT:16921024; DOMINO:15536084
+SYK	stimulation	PIK3R1
+# Reference PMID: ProtMapper:21459462; ProtMapper:12711606; ProtMapper:21674813; ProtMapper:19014652
+SYK	stimulation	NFKBIA
+# Reference PMID: SPIKE_LC:17093053
+MYC	inhibition	SYK
+# Reference PMID: nan
+SYK	stimulation	PIK3CD
+# Reference PMID: ProtMapper:12038794; ProtMapper:8636072
+SYK	stimulation	MAPK14
+# Reference PMID: PhosphoSite:17148460; PhosphoSite:21725281; ProtMapper:28736554; PhosphoSite:28736554; phosphoELM:15388330; PhosphoSite:12817019; PhosphoSite:8702662; SPIKE_LC:16189514; KEA:8702662; KEA:9047237; iPTMnet:8702662; PhosphoSite:22534133; KEA:8892604; KEA:10660534; KEA:15388330; PhosphoSite:11046020; InnateDB:15388330; KEA:12817019; PhosphoSite:15388330; PhosphoSite:22786724; HPRD:15388330; PhosphoSite:23901140; PhosphoSite:17353368
+SYK	stimulation	LCP2
+# Reference PMID: HPRD:15536084; SPIKE_LC:15536084; DOMINO:15536084
+SYK	stimulation	PIK3R2
+# Reference PMID: Adhesome:22267732; SPIKE_LC:16189514; Adhesome:10747947; Adhesome:11964172; HPRD:11964172
+SYK	stimulation	GRB2
+# Reference PMID: SPIKE_LC:16189514; HPRD:10825200
+SYK	stimulation	STAT5A
+# Reference PMID: SPIKE_LC:10825200; SPIKE:10825200; HPRD:10825200
+JAK1	stimulation	SYK
+# Reference PMID: nan
+SYK	inhibition	JUN
+# Reference PMID: nan
+SYK	stimulation	NFKB1
+# Reference PMID: nan
+CXCR4	stimulation	PIK3R1
+# Reference PMID: SIGNOR:19114990
+TGFB1	stimulation	PIK3R1
+# Reference PMID: nan
+IL12B	stimulation	PIK3R1
+# Reference PMID: nan
+HLA-A	stimulation	PIK3R1
+# Reference PMID: SIGNOR:16169518; SPIKE_LC:16713569; Lit-BM-17:11029009; InnateDB:11689445; Lit-BM-17:23065768; Lit-BM-17:11689445; BioGRID:11689445; HINT:11029009; InnateDB:11029009; HPRD:11689445; HINT:17043237
+ESR1	stimulation	PIK3R1
+# Reference PMID: nan
+CXCL12	stimulation	PIK3R1
+# Reference PMID: SPIKE_LC:16713569; NetPath:11313862; Lit-BM-17:25241761; Lit-BM-17:10212255; HPRD:10212255; BioGRID:10212255; Lit-BM-17:9150145; NetPath:15021914; ACSN:9069260
+HRAS	stimulation	PIK3R1
+# Reference PMID: nan
+PIK3R1	stimulation	MYC
+# Reference PMID: HINT:21827948; HINT:33865969; InnateDB:9113989; IntAct:21827948; HINT:28108251; NetPath:9113989; IntAct:31031754; HINT:12147247; HINT:26496610; NetPath:8596638; HINT:9113989; HINT:22020336; HINT:28541707; NetPath:11733063; HINT:28105286; HINT:35271311; HINT:33797901; HPRD:9113989; HINT:24165795; InnateDB:12147247; SIGNOR:14665640; HINT:31031754; IntAct:22020336; IntAct:24165795; HINT:31416665
+PIK3R1	stimulation	PIK3CD
+# Reference PMID: IntAct:16982329; HPRD:7642542; HINT:25284480; HINT:16982329
+PIK3R1	stimulation	MAPK8
+# Reference PMID: nan
+PIK3R1	inhibition	MAPK3
+# Reference PMID: nan
+PTPN1	inhibition	PIK3R1
+# Reference PMID: HPRD:10995743
+TYK2	stimulation	PIK3R1
+# Reference PMID: SPIKE:9774657; HPRD:9774657; NetPath:7544789; NetPath:9774657; SPIKE_LC:9774657; NetPath:15021914
+JAK1	stimulation	PIK3R1
+# Reference PMID: nan
+PIK3R1	stimulation	NFKB1
+# Reference PMID: nan
+IL6	inhibition	LBR
+# Reference PMID: nan
+LBR	stimulation	TNF
+# Reference PMID: nan
+LBR	stimulation	IFNA13
+# Reference PMID: nan
+IFNA13	stimulation	LBR
+# Reference PMID: nan
+IL7	inhibition	TGFB1
+# Reference PMID: HPRD:10506573
+CXCR4	stimulation	STAT1
+# Reference PMID: connectomeDB2020:8752281; connectomeDB2020:9551924; InnateDB:19837984; BioGRID:21757744; ProtMapper:24023874; Cellinker:9712844; Guide2Pharma:16626895; HINT:18799424; scConnect:9551924; Guide2Pharma:9712844; Cellinker:8752281; scConnect:16626895; scConnect:9712844; scConnect:18648536; BioGRID:25495026; Cellinker:10233851; HPMR:8752280; HINT:21757744; Cellinker:18448868; HPRD:10233851; connectomeDB2020:9712844; SIGNOR:11859124; connectomeDB2020:10233851; Cellinker:8752280; InnateDB:16725153; ProtMapper:21465240; connectomeDB2020:8752280; Cellinker:12714578; connectomeDB2020:12714578; ICELLNET:22633458; Guide2Pharma:30476826; scConnect:30476826; LRdb:10699158; HINT:28325822; HPRD:8752281; Guide2Pharma:9551924; Guide2Pharma:18648536; HINT:19837984; Cellinker:9551924
+CXCL12	stimulation	CXCR4
+# Reference PMID: nan
+CXCR4	stimulation	PIK3CD
+# Reference PMID: nan
+CXCR4	stimulation	PIK3R2
+# Reference PMID: SignaLink3:12495636; SignaLink3:23109003; HPRD:10506573; SignaLink3:17169327; SPIKE_LC:16189514; InnateDB:10506573; SignaLink3:11406370
+CXCR4	stimulation	JAK3
+# Reference PMID: nan
+CXCR4	stimulation	STAT5A
+# Reference PMID: nan
+CXCL10	stimulation	CXCR4
+# Reference PMID: nan
+TGFB1	stimulation	SMAD4
+# Reference PMID: nan
+SMAD4	inhibition	TGFB1
+# Reference PMID: nan
+TGFB1	stimulation	CXCL12
+# Reference PMID: ProtMapper:18299321
+TGFB1	stimulation	MAP3K7
+# Reference PMID: nan
+TGFB1	stimulation	MAPK14
+# Reference PMID: nan
+MAPK14	inhibition	TGFB1
+# Reference PMID: nan
+TNF	inhibition	TGFB1
+# Reference PMID: nan
+TGFB1	stimulation	MAPK8
+# Reference PMID: ProtMapper:17540773
+TGFB1	stimulation	MAPK3
+# Reference PMID: nan
+JUN	stimulation	TGFB1
+# Reference PMID: nan
+NFKB1	stimulation	TGFB1
+# Reference PMID: nan
+TGFB1	inhibition	CDK2
+# Reference PMID: nan
+TGFB1	stimulation	KLRK1
+# Reference PMID: nan
+TGFB1	stimulation	ATF2
+# Reference PMID: nan
+ATF2	inhibition	TGFB1
+# Reference PMID: nan
+IL12B	stimulation	IL6
+# Reference PMID: nan
+SOCS3	stimulation	IL6
+# Reference PMID: ProtMapper:17997851
+IL6	stimulation	STAT1
+# Reference PMID: nan
+IL6	stimulation	CXCL12
+# Reference PMID: nan
+IL6	stimulation	GRB2
+# Reference PMID: nan
+TNF	stimulation	IL6
+# Reference PMID: nan
+MAPK8	stimulation	IL6
+# Reference PMID: nan
+IL6	stimulation	MAPK3
+# Reference PMID: nan
+IL6	stimulation	JAK3
+# Reference PMID: nan
+TYK2	stimulation	IL6
+# Reference PMID: nan
+JUN	stimulation	IL6
+# Reference PMID: nan
+NFKB1	stimulation	IL6
+# Reference PMID: nan
+IL6	stimulation	IL1B
+# Reference PMID: nan
+IL1B	stimulation	IL6
+# Reference PMID: nan
+IFNA13	stimulation	IL6
+# Reference PMID: nan
+ATF2	stimulation	IL6
+# Reference PMID: nan
+IL12B	stimulation	STAT1
+# Reference PMID: InnateDB:10899108; IntAct:10899108; Lit-BM-17:10899108; HINT:10779781; SIGNOR:7527811; DIP:7527811; DIP:10779781; IntAct:7527811; SPIKE_LC:17145710; InnateDB:8943050; Lit-BM-17:10779781; HINT:10899108; InnateDB:7527811; HINT:20691190; HINT:7527811; HPRD:10899108; SPIKE_LC:7527811; Lit-BM-17:7527811
+IL12A	stimulation	IL12B
+# Reference PMID: nan
+IL12B	stimulation	NFKBIA
+# Reference PMID: nan
+IL12B	stimulation	TNF
+# Reference PMID: nan
+IL12B	stimulation	STAT5A
+# Reference PMID: nan
+JUN	stimulation	IL12B
+# Reference PMID: nan
+IL12B	inhibition	STAT4
+# Reference PMID: nan
+IL12B	stimulation	NFKB1
+# Reference PMID: nan
+NFKB1	stimulation	IL12B
+# Reference PMID: nan
+IL12B	stimulation	STAT6
+# Reference PMID: nan
+IL12B	stimulation	IL1B
+# Reference PMID: nan
+IL1B	stimulation	IL12B
+# Reference PMID: nan
+CD40LG	stimulation	MAPK14
+# Reference PMID: nan
+CD40LG	stimulation	MAPK8
+# Reference PMID: nan
+CD40LG	stimulation	STAT5A
+# Reference PMID: nan
+JUN	stimulation	CD40LG
+# Reference PMID: nan
+IFNA13	stimulation	CD40LG
+# Reference PMID: nan
+HLA-A	stimulation	LCP2
+# Reference PMID: nan
+HLA-A	stimulation	JUN
+# Reference PMID: nan
+JUN	inhibition	HLA-A
+# Reference PMID: nan
+HLA-E	stimulation	STAT1
+# Reference PMID: SPIKE_LC:17093053
+MYC	inhibition	HLA-E
+# Reference PMID: nan
+IFNA13	stimulation	HLA-E
+# Reference PMID: ProtMapper:12754505
+SOCS3	inhibition	STAT1
+# Reference PMID: nan
+SOCS3	stimulation	HRAS
+# Reference PMID: SPIKE_LC:17093053
+MYC	inhibition	SOCS3
+# Reference PMID: nan
+MAPK14	stimulation	SOCS3
+# Reference PMID: nan
+SOCS3	stimulation	MAPK3
+# Reference PMID: HPRD:10373548; InnateDB:15385932; SPIKE_LC:10373548; SPIKE:10373548
+JAK3	stimulation	SOCS3
+# Reference PMID: nan
+SOCS3	inhibition	TYK2
+# Reference PMID: SPIKE_LC:10373548; NetPath:10373548; HINT:10373548; HINT:16459330; InnateDB:16459330; NetPath:10950967; SPIKE:10373548; NetPath:10707961; HPRD:10707961; InnateDB:10373548; ProtMapper:25682267; HINT:10707961
+JAK1	stimulation	SOCS3
+# Reference PMID: SignaLink3:23331499; SignaLink3:14559241
+SOCS3	stimulation	STAT4
+# Reference PMID: nan
+NFKB1	stimulation	SOCS3
+# Reference PMID: nan
+STAT6	stimulation	SOCS3
+# Reference PMID: nan
+SOCS3	inhibition	IFNA13
+# Reference PMID: nan
+ATF2	stimulation	SOCS3
+# Reference PMID: nan
+SMAD4	stimulation	MYC
+# Reference PMID: KEA:17570479
+MAPK8	stimulation	SMAD4
+# Reference PMID: CancerCellMap:10220381; SPIKE_LC:10220381; NetPath:10220381; SPIKE:10220381; HPRD:10220381; SIGNOR:9312063; CancerCellMap:9732876
+JUN	stimulation	SMAD4
+# Reference PMID: KEA:17570479
+CDK2	inhibition	SMAD4
+# Reference PMID: InnateDB:10085140; NetPath:10085140; HPRD:10085140; SPIKE:10085140; SPIKE_LC:10085140; CancerCellMap:10085140; Lit-BM-17:10085140
+SMAD4	stimulation	ATF2
+# Reference PMID: nan
+NOTCH1	inhibition	JUN
+# Reference PMID: SPIKE:16912174; SPIKE_LC:16912174
+ESR1	stimulation	CXCL12
+# Reference PMID: SPIKE:3677090; SPIKE_LC:3677090
+ESR1	stimulation	MYC
+# Reference PMID: PhosphoSite:12138194; HPRD-phos:12138194; ProtMapper:15879307; KEA:12138194; SIGNOR:12138194; phosphoELM:12138194; ProtMapper:12138194; SIGNOR:15879307; HPRD:12138194; ProtMapper:22431515; PhosphoSite:23216744
+MAPK14	stimulation	ESR1
+# Reference PMID: SIGNOR:16169518
+ESR1	stimulation	PIK3R2
+# Reference PMID: KEA:17570479
+MAPK8	stimulation	ESR1
+# Reference PMID: KEA:12118371; SIGNOR:17615152; KEA:16076840; KEA:15461668; KEA:7838153; ProtMapper:18372406; ProtMapper:14680484; ProtMapper:15212693; SIGNOR:18372406; KEA:15059947; KEA:10949034; KEA:15528270; KEA:9528769; KEA:7491495; KEA:12093745; ProtMapper:17615152; HPRD:12118371; phosphoELM:7491495
+MAPK3	stimulation	ESR1
+# Reference PMID: BioGRID:11477071; SPIKE_LC:16713569; BioGRID:17317669; HPRD:11477071
+ESR1	stimulation	JUN
+# Reference PMID: BioGRID:11477071; SPIKE_LC:16713569; BioGRID:17317669; HPRD:11477071
+JUN	stimulation	ESR1
+# Reference PMID: PhosphoSite:23770852; dbPTM:10428798; KEA:17570479; ProtMapper:10428798; PhosphoSite:22431515; SIGNOR:10428798; ProtMapper:23390529; SIGNOR:23390529
+CDK2	stimulation	ESR1
+# Reference PMID: nan
+ATF2	stimulation	ESR1
+# Reference PMID: nan
+STAT1	stimulation	IL12A
+# Reference PMID: nan
+IL12A	stimulation	STAT1
+# Reference PMID: nan
+CXCL12	stimulation	STAT1
+# Reference PMID: dbPTM:18691976; SignaLink3:23331499; CA1:10201984; ProtMapper:10201984; dbPTM:15322115; dbPTM:19690332; dbPTM:18669648; SIGNOR:17502367; dbPTM:17897103; ProtMapper:17502367; SignaLink3:17502367; HPRD:11226159; dbPTM:7543024; ProtMapper:25950470
+MAPK14	stimulation	STAT1
+# Reference PMID: ProtMapper:14963018; ProtMapper:24913968; SPIKE:14963018; SPIKE_LC:14963018; SIGNOR:24913968
+MAPK8	stimulation	STAT1
+# Reference PMID: SignaLink3:23331499; SignaLink3:12495636; SignaLink3:9535918; SignaLink3:23109003; SignaLink3:11406370
+JAK3	stimulation	STAT1
+# Reference PMID: SignaLink3:15261459; SPIKE_LC:10435617; SignaLink3:18389480; HPRD-phos:7543024; HPRD:7543024; ProtMapper:7690989; HPRD:11294897; KEA:11839738; SignaLink3:7690989; ProtMapper:10918587; HPRD:11839738; ProtMapper:31876380; SignaLink3:10918587; SignaLink3:7543024; HPRD-phos:7690989; HPRD-phos:7657660; KEA:7657660; HPRD-phos:15322115; HPRD:10918587; ProtMapper:11839738; SignaLink3:11839738; SignaLink3:14764663; ProtMapper:32694928; SignaLink3:23331499; SignaLink3:24243840; HPRD:15322115; SignaLink3:29145629; HPRD:7657660; KEA:11438544; KEA:7690989; SignaLink3:8232552; KEA:10982844; KEA:9355737; ProtMapper:7543024; SignaLink3:7657660; HPRD-phos:12637327; HPRD:12817007; HPRD:12637327; ProtMapper:11294897; ProtMapper:15322115; SPIKE:10435617; SignaLink3:11294897; KEA:10918587; SignaLink3:12637327; SignaLink3:15322115; ProtMapper:12817007; KEA:7592750; ProtMapper:7657660; SignaLink3:18988627; KEA:12637327; KEA:7543024; KEA:11294897; SIGNOR:7657660; SignaLink3:14565860; HPRD-phos:12817007; HPRD-phos:11839738; KEA:12817007; SignaLink3:8780896; HPRD-phos:11294897; SignaLink3:10982844; SignaLink3:12817007; HPRD:7690989; KEA:15322115; ProtMapper:23257612; SignaLink3:23124025; KEA:10748192; ProtMapper:12637327; ProtMapper:25172371; KEA:11152457; HPRD-phos:10918587
+TYK2	stimulation	STAT1
+# Reference PMID: HPRD-phos:7543024; SignaLink3:18508557; IntAct:34950606; SignaLink3:12517932; SignaLink3:7690989; BioGRID:35317858; ProtMapper:10982844; iPTMnet:7504784; ProtMapper:31876380; dbPTM:19534553; ProtMapper:19787091; SignaLink3:14764663; ProtMapper:20035788; SignaLink3:24243840; HINT:32123171; IntAct:32953130; SignaLink3:12244150; SignaLink3:8232552; InnateDB:14978237; HPRD:11722592; KEA:9355737; ProtMapper:15322115; HPRD:12817007; ProtMapper:32123171; SignaLink3:12093291; dbPTM:19088846; KEA:10918587; SignaLink3:12637327; InnateDB:15978943; HPRD-phos:10982844; HINT:34950606; SignaLink3:18988627; KEA:11294897; HPRD-phos:12817007; SignaLink3:10982844; SignaLink3:11722592; ProtMapper:30373602; KEA:10748192; ProtMapper:12637327; SIGNOR:21576360; KEA:11152457; HINT:14978237; BioGRID:32953130; SignaLink3:18389480; ProtMapper:7504784; HPRD:7543024; ProtMapper:7690989; SignaLink3:22306691; NetPath:15284024; SignaLink3:18941194; SignaLink3:7543024; Macrophage:7532278; phosphoELM:14978237; HPRD-phos:15322115; HPRD:10918587; SignaLink3:12040185; HPRD:15322115; ProtMapper:18989459; SignaLink3:12759422; SignaLink3:27774606; ProtMapper:7543024; IntAct:34521819; ProtMapper:11294897; SignaLink3:7796299; SIGNOR:9020188; SignaLink3:15322115; KEA:12817007; SignaLink3:10851062; BioGRID:34228987; SignaLink3:12817007; HPRD:7690989; ProtMapper:23257612; SignaLink3:15261459; SignaLink3:20169197; SignaLink3:9535918; KEA:11839738; HINT:15978943; SignaLink3:10918587; HPRD-phos:7690989; ProtMapper:20087684; SignaLink3:11839738; SignaLink3:8756628; SignaLink3:29145629; SignaLink3:11306517; SignaLink3:8156998; HPRD:7657660; KEA:7690989; SignaLink3:24058793; InnateDB:15284024; HPRD-phos:12637327; HINT:34521819; SignaLink3:10022928; SPIKE_LC:14963018; ProtMapper:11823427; HPRD:10982844; KEA:7592750; ProtMapper:7657660; SignaLink3:11972023; SIGNOR:7657660; SignaLink3:14565860; HINT:15284024; KEA:15322115; SignaLink3:8631301; SignaLink3:23124025; SignaLink3:8662591; ProtMapper:25172371; ProtMapper:20006573; HPRD-phos:10918587; KEA:11438544; HPRD:11294897; SignaLink3:11418623; ProtMapper:10918587; HPRD:11839738; SignaLink3:8662795; phosphoELM:11438544; HPRD-phos:7657660; KEA:7657660; ProtMapper:11839738; SignaLink3:23331499; HINT:32953130; SPIKE:14963018; dbPTM:7657660; KEA:10982844; SIGNOR:11823427; SignaLink3:7657660; SignaLink3:25297818; SignaLink3:7510216; HPRD:12637327; ProtMapper:25386349; SignaLink3:11294897; ProtMapper:12817007; KEA:12637327; KEA:7543024; HPRD-phos:11839738; SignaLink3:19535621; HPRD-phos:11294897; ProtMapper:21429244; CancerCellMap:15284024
+JAK1	stimulation	STAT1
+# Reference PMID: nan
+STAT1	stimulation	CXCL10
+# Reference PMID: SIGNOR:10982806
+STAT6	inhibition	STAT1
+# Reference PMID: nan
+IFNA13	stimulation	STAT1
+# Reference PMID: SPIKE_LC:17992189; SPIKE:17992189
+STAT1	stimulation	FAS
+# Reference PMID: nan
+IL12A	stimulation	STAT5A
+# Reference PMID: nan
+JUN	stimulation	IL12A
+# Reference PMID: nan
+IL12A	inhibition	STAT4
+# Reference PMID: nan
+NFKB1	stimulation	IL12A
+# Reference PMID: nan
+IL12A	stimulation	STAT6
+# Reference PMID: nan
+IL1B	stimulation	IL12A
+# Reference PMID: nan
+CXCL12	stimulation	PIK3CD
+# Reference PMID: nan
+CXCL12	stimulation	PIK3R2
+# Reference PMID: nan
+CXCL12	stimulation	MAPK3
+# Reference PMID: nan
+CXCL12	stimulation	STAT5A
+# Reference PMID: nan
+IFNA13	stimulation	CXCL12
+# Reference PMID: ProtMapper:8622692; ProtMapper:9724653; Macrophage:14580335; Macrophage:16410802; ProtMapper:14580335; Macrophage:9724653; ProtMapper:8668171
+MAPK14	inhibition	NFKBIA
+# Reference PMID: nan
+PRKCB	stimulation	NFKBIA
+# Reference PMID: ProtMapper:29088783; ProtMapper:25215581; ProtMapper:24386331; ProtMapper:25888769; ProtMapper:29748881; ProtMapper:24083678; ProtMapper:24349153; ProtMapper:20460401; ProtMapper:9363938
+TNF	inhibition	NFKBIA
+# Reference PMID: nan
+MAPK3	inhibition	NFKBIA
+# Reference PMID: SPIKE_LC:8940099; ProtMapper:8940099; HPRD:8940099; DEPOD:8940099; SIGNOR:8940099
+PTPN1	inhibition	NFKBIA
+# Reference PMID: nan
+STAT5A	inhibition	NFKBIA
+# Reference PMID: nan
+TYK2	stimulation	NFKBIA
+# Reference PMID: nan
+JUN	inhibition	NFKBIA
+# Reference PMID: ACSN:1829648; DIP:17003112; Lit-BM-17:8631829; InnateDB:1340770; Macrophage:7479848; Lit-BM-17:11313474; IntAct:17003112; Macrophage:15836773; Macrophage:8657102; SPIKE_LC:17145710; BioGRID:16210649; HPRD:9566883; SPIKE_LC:14743216; Macrophage:16846590; ACSN:8096091; InnateDB:9315679; Macrophage:15371334; CancerCellMap:9426183; Lit-BM-17:7739549; Macrophage:17561400; HINT:9865694; Lit-BM-17:17003112; Lit-BM-17:20558726; InnateDB:21719482; HINT:26496610; BioGRID:7891711; Lit-BM-17:11020244; Macrophage:16970925; HINT:8887676; BioGRID:8631829; CancerCellMap:11571291; Macrophage:7831327; HINT:17003112; Lit-BM-17:26496610; Macrophage:9597130; Macrophage:10837071; Macrophage:15145317; CancerCellMap:9738011; HINT:7891711; HINT:9738011; Lit-BM-17:20237821; Lit-BM-17:20980497; HINT:9865693; Lit-BM-17:9572494; Macrophage:16493424; Macrophage:7628694; HINT:33961781; HINT:35271311; HINT:9135156; Lit-BM-17:8887676; Lit-BM-17:25609649; DIP:14743216; Macrophage:15214841; Lit-BM-17:9865693; Lit-BM-17:16210649; InnateDB:10329681; Lit-BM-17:21988832; CancerCellMap:10655476; HINT:14743216; Macrophage:7479976; Macrophage:7867065; Lit-BM-17:26186194; IntAct:21988832; Lit-BM-17:14743216; HPRD:9865693; Macrophage:7862124; Lit-BM-17:7891711; Macrophage:10497169; IntAct:14743216; NetPath:9426183; Lit-BM-17:9738011; Macrophage:16513645
+NFKB1	stimulation	NFKBIA
+# Reference PMID: HINT:9113989; NetPath:9113989; HINT:22020336; InnateDB:9113989; SIGNOR:21779497; HPRD:11739523; HINT:10545207; HINT:10922060; InnateDB:10545207; HPRD:9113989; HPRD:9235916; ACSN:9069260
+HRAS	stimulation	PIK3CD
+# Reference PMID: SPIKE_LC:16713569; ACSN:17496910; HPRD:11352655; ACSN:17673906; Adhesome:11352655
+GRB2	stimulation	HRAS
+# Reference PMID: nan
+PRKCB	stimulation	HRAS
+# Reference PMID: HPRD:8137421; SPIKE_LC:16713569; Adhesome:11525649; DIP:8137421; HPRD:11525649; Adhesome:16810318; Adhesome:8137421; HPRD:16810318
+HRAS	stimulation	MAPK8
+# Reference PMID: nan
+JAK3	stimulation	HRAS
+# Reference PMID: nan
+JAK1	stimulation	HRAS
+# Reference PMID: SPIKE_LC:17093053
+MYC	inhibition	PIK3CD
+# Reference PMID: KEA:17570479
+MAPK14	stimulation	MYC
+# Reference PMID: nan
+MYC	stimulation	TNF
+# Reference PMID: HPRD:1748630; HPRD-phos:1748630; KEA:1651323; ProtMapper:10551811; SIGNOR:10551811; KEA:1748630; HPRD-phos:18669648; HPRD-phos:19651622; KEA:11243879; SPIKE_LC:16713569; KEA:91332050; SPIKE_LC:10551811; HPRD:10551811; KEA:10551811; KEA:17081983; HPRD-phos:18767875; HPRD-phos:20068231; KEA:15210690; HPRD-phos:10551811
+MAPK8	stimulation	MYC
+# Reference PMID: SignaLink3:23331499; SignaLink3:9155018; SignaLink3:18463697; SIGNOR:32482868; ProtMapper:32482868; InnateDB:15210690; SignaLink3:15210690; SignaLink3:18988627; HPRD:9155018; ProtMapper:31944568; SignaLink3:21071413
+MAPK3	stimulation	MYC
+# Reference PMID: nan
+JAK3	stimulation	MYC
+# Reference PMID: nan
+JAK1	stimulation	MYC
+# Reference PMID: ACSN:11929833; ACSN:18347071; ACSN:21767405; ACSN:18627596; ACSN:16039586; ACSN:20530697; ACSN:15806138; ACSN:16169192; ACSN:8545107; ACSN:19623618; ACSN:16510874; ACSN:22290435; ACSN:19619488; ACSN:17050667; ACSN:17439715; ACSN:20920541; ACSN:20006983; ACSN:22761862; ACSN:22705350; ACSN:15576399; ACSN:23306204; ACSN:20122174; ACSN:17291450; ACSN:11274345; ACSN:15768032; ACSN:16007074; ACSN:17143292; ACSN:23343194; ACSN:21285352
+JUN	inhibition	MYC
+# Reference PMID: nan
+STAT4	stimulation	MYC
+# Reference PMID: ACSN:19219071; ACSN:2191300; ACSN:18490439
+NFKB1	stimulation	MYC
+# Reference PMID: ProtMapper:22348395; KEA:17570479; ProtMapper:20445224; dbPTM:19966300; SIGNOR:35039060; dbPTM:8386367; dbPTM:17558397; dbPTM:15103331; dbPTM:17081983; SPIKE:19966300; ProtMapper:31431461; ProtMapper:20807678; dbPTM:18669648; SPIKE_LC:19966300; ProtMapper:33260316; ProtMapper:35039060; ProtMapper:33356836; dbPTM:20713526; ProtMapper:29896817
+CDK2	stimulation	MYC
+# Reference PMID: nan
+STAT6	stimulation	MYC
+# Reference PMID: nan
+MYC	stimulation	IL15
+# Reference PMID: nan
+IL15	stimulation	MYC
+# Reference PMID: nan
+JAK3	stimulation	PIK3CD
+# Reference PMID: nan
+STAT5A	stimulation	PIK3CD
+# Reference PMID: nan
+TYK2	stimulation	PIK3CD
+# Reference PMID: nan
+JAK1	stimulation	PIK3CD
+# Reference PMID: Macrophage:17947236; Macrophage:17965022; HPRD:12589052; CancerCellMap:12589052; Macrophage:15692051
+MAP3K7	stimulation	MAPK14
+# Reference PMID: nan
+LCP2	stimulation	MAP3K7
+# Reference PMID: Macrophage:17947236; SPIKE_LC:11865055; HINT:17709393; InnateDB:11865055; HPRD:11865055; Macrophage:17965022; HINT:11865055; Macrophage:17186025; SPIKE:11865055; Macrophage:15692051
+MAP3K7	stimulation	MAPK8
+# Reference PMID: nan
+MAP3K7	stimulation	MAPK3
+# Reference PMID: Macrophage:12842894
+MAP3K7	stimulation	NFKB1
+# Reference PMID: nan
+MAP3K7	stimulation	ATF2
+# Reference PMID: nan
+MAPK14	inhibition	TNF
+# Reference PMID: nan
+TNF	stimulation	MAPK14
+# Reference PMID: HPRD:15778365
+MAPK8	stimulation	MAPK14
+# Reference PMID: InnateDB:12697810; IntAct:23397142; HPRD:12697810; CancerCellMap:12697810; ACSN:15187187; SPIKE_LC:12697810; Lit-BM-17:12697810; ACSN:12738796; Lit-BM-17:11238443; HINT:21675959; IntAct:11238443; Lit-BM-17:23397142; SPIKE:11238443; ACSN:11274345; SPIKE_LC:11238443; ACSN:18039929; HINT:11238443; NetPath:12697810; SPIKE:12697810; Lit-BM-17:21675959
+MAPK14	inhibition	MAPK3
+# Reference PMID: nan
+JAK3	stimulation	MAPK14
+# Reference PMID: nan
+JAK1	stimulation	MAPK14
+# Reference PMID: ProtMapper:25483191; CA1:12475989; KEA:17570479
+MAPK14	stimulation	JUN
+# Reference PMID: KEA:10961885; SPIKE_LC:19324872; SignaLink3:23331499; SPIKE:19324872; SignaLink3:17502367; HPRD-phos:10961885; ProtMapper:10961885; ProtMapper:17502367; SignaLink3:10961885; ProtMapper:12213961; ProtMapper:10903740; HPRD:10961885; SIGNOR:17502367
+MAPK14	stimulation	STAT4
+# Reference PMID: nan
+MAPK14	stimulation	NFKB1
+# Reference PMID: nan
+MAPK14	inhibition	IL1B
+# Reference PMID: SPIKE:19324872; KEA:17570479; PhosphoSite:21098032; HINT:17380123; SignaLink3:7535770; PhosphoSite:11781825; CancerCellMap:10085140; HPRD:11259586; InnateDB:9707433; HINT:21444723; SIGNOR:10085140; SPIKE_LC:17380123; HINT:16945434; ProtMapper:17079470; ProtMapper:10903740; ACSN:15140942; ProtMapper:7535770; HINT:7535770; SignaLink3:12110590; SignaLink3:18988627; HINT:16998585; HPRD-phos:18767875; ProtMapper:19651622; ACSN:11274345; PhosphoSite:10821277; HPRD-phos:20068231; PhosphoSite:26359454; HINT:9596579; ACSN:16393692; ProtMapper:15212693; ProtMapper:17258390; ACSN:19436832; PhosphoSite:7737129; HPRD:7535770; PhosphoSite:11078583; phosphoELM:11896587; HINT:10581258; KEA:12110590; ProtMapper:19647037; KEA:11971971; ProtMapper:12110590; KEA:7535770; PhosphoSite:7824938; KEA:17081983; SignaLink3:21071413; CA1:8663524; dbPTM:19413330; HINT:18695677; InnateDB:15569672; PhosphoSite:33893075; PhosphoSite:10777545; HPRD-phos:12110590; HINT:10708586; KEA:602896; KEA:12788955; HINT:25098452; ProtMapper:7737130; BioGRID:12118074; KEA:11896587; HINT:17170118; ACSN:15187187; HINT:16456540; HPRD-phos:7535770; CancerCellMap:11259586; KEA:10777545; HPRD-phos:18669648; dbPTM:17081983; KEA:11259586; ProtMapper:11259586; PhosphoSite:7535770; phosphoELM:11971971; SignaLink3:11259586; InnateDB:10581204; dbPTM:12110590; dbPTM:18669648; HINT:10978313; ProtMapper:15304344; ProtMapper:10085140; HINT:26987986; ProtMapper:18767875; BioGRID:27142525; HINT:9753474; ProtMapper:18669648; ProtMapper:19413330; HINT:12118074; HINT:11532856; PhosphoSite:17548358; CA1:12024021; HPRD:10085140; HPRD-phos:11259586; SIGNOR:20068231; HINT:26391660; InnateDB:9305639; BioGRID:26987986; HINT:9162092; KEA:10085140; SignaLink3:23331499; HINT:14499342; PhosphoSite:15304344; BioGRID:9753474; KEA:7737129; PhosphoSite:22037767; HINT:11279118; HPRD-phos:10085140; SignaLink3:10085140; dbPTM:19690332; HPRD-phos:19413330; HINT:33188182; ProtMapper:11566021; PhosphoSite:10909971; HPRD:12110590; SIGNOR:12110590; HINT:9235954; dbPTM:9430721; ProtMapper:7839144; HINT:20213747; ProtMapper:20068231; ACSN:21614932; ACSN:20506250; ProtMapper:10777545; SPIKE_LC:19324872; PhosphoSite:11060298; HPRD-phos:19651622; HINT:11839738
+MAPK14	stimulation	ATF2
+# Reference PMID: Lit-BM-17:19380743; IntAct:25416956; HINT:8995445; ELM:12176364; ELM:12773374; ELM:20736164; Lit-BM-17:17235283; HPRD:7706237; HPRD:9716598; HINT:15929943; Lit-BM-17:15929943; HINT:17235283; Lit-BM-17:11314042; Lit-BM-17:8995445; Lit-BM-17:10204582; ELM:11314042; ELM:12620234; IntAct:20936779; IntAct:15929943; BioGRID:8995445; ELM:17235283; Lit-BM-17:9716598; Lit-BM-17:10224278; Lit-BM-17:20936779; Lit-BM-17:8695800; ELM:20159979; IntAct:32296183; IntAct:17235283; SPIKE_LC:17235283; HINT:7706237; DOMINO:17235283
+LCP2	stimulation	GRB2
+# Reference PMID: nan
+JAK3	stimulation	PIK3R2
+# Reference PMID: nan
+TYK2	stimulation	PIK3R2
+# Reference PMID: SPIKE:9774657; SPIKE_LC:9774657; NetPath:9774657; NetPath:15021914
+JAK1	stimulation	PIK3R2
+# Reference PMID: nan
+GRB2	stimulation	MAPK3
+# Reference PMID: nan
+JAK3	stimulation	GRB2
+# Reference PMID: HPRD:8536716; BioGRID:11527382; HPRD:11527382
+JAK1	stimulation	GRB2
+# Reference PMID: ProtMapper:12917261; ProtMapper:9891069
+PRKCB	stimulation	MAPK8
+# Reference PMID: ProtMapper:8903320; ProtMapper:10327068
+PRKCB	stimulation	MAPK3
+# Reference PMID: nan
+JAK3	stimulation	PRKCB
+# Reference PMID: nan
+PRKCB	stimulation	STAT5A
+# Reference PMID: nan
+JAK1	stimulation	PRKCB
+# Reference PMID: nan
+TNF	stimulation	MAPK8
+# Reference PMID: ProtMapper:10903772
+TNF	stimulation	MAPK3
+# Reference PMID: nan
+STAT5A	inhibition	TNF
+# Reference PMID: nan
+TYK2	stimulation	TNF
+# Reference PMID: ProtMapper:12482991; ProtMapper:21786215
+TNF	stimulation	NFKB1
+# Reference PMID: nan
+TNF	stimulation	CXCL10
+# Reference PMID: nan
+TNF	stimulation	IL1B
+# Reference PMID: nan
+IFNA13	stimulation	TNF
+# Reference PMID: HPRD:15778365
+MAPK3	stimulation	MAPK8
+# Reference PMID: nan
+JAK3	stimulation	MAPK8
+# Reference PMID: SPIKE_LC:19737086; SPIKE:19737086
+MAPK8	stimulation	STAT5A
+# Reference PMID: nan
+JAK1	stimulation	MAPK8
+# Reference PMID: BioGRID:20514406; Lit-BM-17:11108663; Lit-BM-17:15677475; HINT:20133937; HINT:14633987; HINT:10962563; KEA:17570479; Lit-BM-17:8586671; SignaLink3:8137421; InnateDB:8654373; KEA:11948398; SIGNOR:8137421; SPIKE:1460037; SignaLink3:8586671; HINT:16434970; HINT:23816567; SPIKE_LC:9561845; HINT:9692890; HPRD-phos:18212344; HINT:15749833; Lit-BM-17:14572659; HINT:12149229; ProtMapper:10713700; HINT:10101227; SPIKE:12871843; ProtMapper:7992057; ProtMapper:24113186; Lit-BM-17:8137421; phosphoELM:8137421; BioGRID:10908726; HINT:28753655; SignaLink3:16291755; HINT:15590691; HPRD-phos:8224842; ProtMapper:8137421; HINT:15289320; BioGRID:15289320; DIP:8137421; HINT:16549498; KEA:15378002; HPRD:8224842; Lit-BM-17:16549498; ProtMapper:29368981; Lit-BM-17:10962563; HINT:8654373; Lit-BM-17:12963725; HPRD-phos:18707149; HINT:15958389; HINT:20732415; SignaLink3:18988627; ProtMapper:12740383; BioGRID:12832416; ACSN:11274345; HPRD-phos:19664995; Lit-BM-17:23816567; BioGRID:15677475; ProtMapper:12881422; Lit-BM-17:12228228; HPRD-phos:20068231; SignaLink3:8224842; ProtMapper:9407028; HINT:9808624; ProtMapper:17143273; ACSN:20028971; HINT:16157600; SignaLink3:8654373; ProtMapper:15068801; HINT:8621542; dbPTM:15302935; HPRD-phos:20058876; Lit-BM-17:12697749; Lit-BM-17:9692890; ProtMapper:18707149; ACSN:16393692; ProtMapper:15212693; HINT:11108663; Lit-BM-17:11907583; phosphoELM:11948398; HINT:14557262; BioGRID:12185592; Lit-BM-17:18003900; BioGRID:22110360; HPRD:16291755; Lit-BM-17:17189706; Lit-BM-17:25098452; Lit-BM-17:15749833; HINT:11278395; HINT:16983342; Lit-BM-17:12832416; Lit-BM-17:19270716; ACSN:19436832; Lit-BM-17:9774977; ProtMapper:14523011; IntAct:16291755; ProtMapper:10617104; HINT:16007099; BioGRID:12407442; IntAct:18003900; BioGRID:14517282; Lit-BM-17:16824735; ProtMapper:16076903; Lit-BM-17:8001819; ProtMapper:10882101; Lit-BM-17:17875713; HINT:10585392; HINT:15143066; ProtMapper:17055484; Lit-BM-17:16166642; HINT:19527717; KEA:11971971; ProtMapper:10493750; Lit-BM-17:16291755; CancerCellMap:10064600; HINT:15677475; ProtMapper:8607977; HINT:12228228; HINT:8846788; SignaLink3:21071413; SPIKE_LC:10617656; BioGRID:10585392; dbPTM:19413330; HINT:20514406; HINT:11479302; KEA:8224842; Lit-BM-17:14557262; Lit-BM-17:12185592; Lit-BM-17:15289320; HINT:22327296; SPIKE_LC:12871843; CancerCellMap:8586671; HINT:15894542; Lit-BM-17:10747973; ProtMapper:7600582; HPRD-phos:18452278; Lit-BM-17:16007099; HPRD:8654373; ProtMapper:20058876; HINT:15299005; HINT:12185592; HINT:25098452; Lit-BM-17:18957422; ProtMapper:7737130; HINT:8137421; HINT:9207092; KEA:11896587; ProtMapper:19664995; HINT:9990010; HINT:13130464; HPRD-phos:8137421; Lit-BM-17:13130464; Lit-BM-17:16740711; HINT:22095282; HINT:17189706; HINT:17875713; HPRD-phos:18669648; InnateDB:16007099; HINT:16291755; KEA:8654373; Lit-BM-17:22110360; HINT:16142216; HINT:16533805; Lit-BM-17:14633987; Lit-BM-17:8654373; dbPTM:18650425; HINT:14572659; Lit-BM-17:12052834; Lit-BM-17:17363973; HPRD-phos:12740383; HINT:9774977; KEA:12531896; Lit-BM-17:11278395; ProtMapper:8224842; HPRD-phos:8654373; InnateDB:11809792; HINT:10419510; Lit-BM-17:19527717; SPIKE:9169478; SPIKE:9561845; HINT:16824735; Lit-BM-17:19910486; dbPTM:18669648; BioGRID:19270716; ProtMapper:10385525; HINT:22110360; HINT:12963725; KEA:15302935; HINT:22904686; SPIKE_LC:19527717; HINT:16740711; Lit-BM-17:15299005; KEA:8137421; Lit-BM-17:10987838; Lit-BM-17:16983342; ProtMapper:11562357; ProtMapper:18669648; Macrophage:11460167; ProtMapper:19413330; Lit-BM-17:14612408; ProtMapper:9891069; ProtMapper:9315636; SignaLink3:16983342; BioGRID:10987838; Lit-BM-17:16533805; SPIKE_LC:9169478; Lit-BM-17:8846788; InnateDB:12963725; HINT:11532856; HINT:10393177; HINT:18922473; HINT:11907583; ProtMapper:8654373; SPIKE_LC:10871633; HINT:12832416; Lit-BM-17:18922473; CA1:1608942; InnateDB:16824735; InnateDB:18617513; ProtMapper:18212344; HINT:12407442; Lit-BM-17:14517282; HINT:19270716; ProtMapper:9487126; Lit-BM-17:20732415; ProtMapper:11801649; HINT:14701799; SPIKE:10617656; SignaLink3:23331499; BioGRID:14701799; HINT:14612408; HINT:10747973; ProtMapper:9305638; HINT:14517282; HINT:7527398; HINT:19910486; HINT:8586671; HINT:18003900; ProtMapper:12087092; HINT:10398438; ProtMapper:18362184; SignaLink3:15302935; dbPTM:19690332; HINT:10908726; Lit-BM-17:18429822; SPIKE:10871633; ELM:8157646; HINT:17363973; IntAct:19527717; HPRD-phos:19413330; SPIKE_LC:16713569; ProtMapper:18452278; HPRD:15302935; Lit-BM-17:15958389; DIP:18003900; IntAct:15894542; ProtMapper:8525045; HINT:10464310; ProtMapper:20068231; Lit-BM-17:14701799; ACSN:20506250; Lit-BM-17:16157600; HPRD:8137421; IntAct:10393177; HINT:12052834; Lit-BM-17:16434970; Lit-BM-17:8621542; Lit-BM-17:9575168; HINT:16166642; SPIKE_LC:1460037; SignaLink3:12052834; ProtMapper:7652575; dbPTM:17804415; Lit-BM-17:15590691; HINT:9575168; HINT:10987838; HINT:18957422; Lit-BM-17:9808624; InnateDB:8001819; HINT:8001819; ProtMapper:9184210
+MAPK8	stimulation	JUN
+# Reference PMID: SIGNOR:21123173; ProtMapper:21123173; PhosphoSite:21123173
+MAPK8	inhibition	STAT6
+# Reference PMID: nan
+IL1B	stimulation	MAPK8
+# Reference PMID: HINT:12874243; ProtMapper:19255142; BioGRID:9405416; SPIKE_LC:17145710; InnateDB:8654373; SignaLink3:7535770; HINT:21444723; Lit-BM-17:15550563; HINT:7535770; Lit-BM-17:12874243; Lit-BM-17:9162092; HINT:8654373; Lit-BM-17:11566021; SIGNOR:7737130; Lit-BM-17:21444723; SignaLink3:18988627; ACSN:11274345; ACSN:20028971; ProtMapper:15068801; ACSN:16393692; ProtMapper:15212693; SignaLink3:7737130; CA1:7824938; ACSN:19436832; HINT:11865055; ELM:26538579; phosphoELM:11896587; Lit-BM-17:17875713; KEA:12110590; Lit-BM-17:7535770; Lit-BM-17:9399639; KEA:11971971; KEA:7535770; KEA:17081983; SignaLink3:21071413; Lit-BM-17:11865055; HPRD:7737129; HINT:9399639; Lit-BM-17:12958075; Lit-BM-17:11279118; KEA:602896; KEA:12788955; ProtMapper:7737130; HINT:9207092; KEA:11896587; KEA:10777545; HINT:12958075; HINT:17875713; Lit-BM-17:8654373; HINT:16533805; ProtMapper:9029150; ProtMapper:9317150; Lit-BM-17:9405416; phosphoELM:11971971; SIGNOR:7824938; Lit-BM-17:9207092; ProtMapper:15304344; HINT:12804775; SignaLink3:7824938; SPIKE:7737129; ProtMapper:9670022; Lit-BM-17:16533805; SignaLink3:7737129; HINT:15550563; ProtMapper:7824938; KEA:15105425; HINT:9162092; SignaLink3:23331499; Lit-BM-17:12804775; KEA:7737129; ProtMapper:17626013; HINT:11279118; HINT:33188182; ACSN:20506250; ProtMapper:10777545; SPIKE_LC:7737129; HPRD:7737130
+MAPK8	stimulation	ATF2
+# Reference PMID: SIGNOR:10194762; HPRD:10194762; ACSN:8226933; ProtMapper:10194762; ACSN:9604935; PhosphoSite:12407017; PhosphoSite:34188118; SignaLink3:23331499; ACSN:8388392; phosphoELM:10194762; SignaLink3:10194762; KEA:10194762; PhosphoSite:24263804; KEA:12091337; SignaLink3:18988627; SignaLink3:17502367; KEA:9804779; ACSN:18775330; PhosphoSite:31932645; PhosphoSite:10194762; PhosphoSite:20508164
+MAPK3	stimulation	STAT5A
+# Reference PMID: nan
+NFKB1	stimulation	MAPK3
+# Reference PMID: nan
+IL1B	stimulation	MAPK3
+# Reference PMID: ProtMapper:19647037; SIGNOR:20068231; ProtMapper:12110590; ProtMapper:15192015; SIGNOR:12110590; ProtMapper:15304344; InnateDB:15192015; ProtMapper:20068231; ProtMapper:10777545
+MAPK3	stimulation	ATF2
+# Reference PMID: DEPOD:10993888; HPRD:12237455; InnateDB:12237455; DOMINO:12237455; SIGNOR:10993888; ProtMapper:10993888; SPIKE_LC:12237455
+PTPN1	inhibition	STAT5A
+# Reference PMID: DEPOD:18716132; SIGNOR:22156494
+PTPN1	inhibition	STAT6
+# Reference PMID: HPRD:9047382; HPRD:10037026; SignaLink3:23331499; SIGNOR:18250158; SignaLink3:7777534; SPIKE_LC:19414780; HINT:10037026; HINT:9047382; SPIKE_LC:16189514; ProtMapper:19088846; ProtMapper:18250158; SIGNOR:19088846; BioGRID:18250158; SPIKE:19414780
+JAK3	stimulation	STAT5A
+# Reference PMID: nan
+JAK3	stimulation	STAT4
+# Reference PMID: nan
+IL15	stimulation	JAK3
+# Reference PMID: SignaLink3:9872990; SignaLink3:23331499; InnateDB:9872990
+TYK2	stimulation	STAT5A
+# Reference PMID: SPIKE_LC:16741510; SPIKE_LC:10781830; SPIKE:16741510; SPIKE:10781830; HPRD:11722592; Lit-BM-17:9047382
+JAK1	stimulation	STAT5A
+# Reference PMID: nan
+STAT5A	stimulation	FAS
+# Reference PMID: ProtMapper:8702790; HINT:8702790; SIGNOR:30029643; Macrophage:8702790; KEA:15659558; ProtMapper:19901323; Macrophage:7504784; HPRD-phos:8702790; HPRD-phos:19901323; KEA:8702790; ProtMapper:30029643; iPTMnet:8702790; phosphoELM:8702790; HPRD:7589562; HPRD:8702790; SIGNOR:8702790; HINT:7589562
+JAK1	stimulation	TYK2
+# Reference PMID: nan
+TYK2	stimulation	NFKB1
+# Reference PMID: nan
+TYK2	stimulation	STAT6
+# Reference PMID: ProtMapper:7594594; ProtMapper:9038232; ProtMapper:8943050; ProtMapper:10198225; ProtMapper:9454765; ProtMapper:7528775
+IL1B	stimulation	TYK2
+# Reference PMID: nan
+JAK1	stimulation	STAT4
+# Reference PMID: InnateDB:7692236
+NFKB1	stimulation	JUN
+# Reference PMID: HINT:17283046; HINT:18566416
+JUN	stimulation	IL1B
+# Reference PMID: nan
+JUN	stimulation	IFNA13
+# Reference PMID: HINT:25609649; BioGRID:2320002; HINT:20195357; IntAct:20511396; HPRD:1827203; CA1:2320002; SPIKE:1828107; Lit-BM-17:2320002; IntAct:20195357; Lit-BM-17:1827203; HINT:2320002; InnateDB:18641343; Lit-BM-17:10327051; HINT:26496610; Lit-BM-17:26496610; BioGRID:15546613; SPIKE_LC:10327051; HINT:20102225; HPRD:9445037; Lit-BM-17:23661758; HINT:33961781; HINT:35271311; IntAct:23661758; IntAct:31515488; Lit-BM-17:25609649; HPRD:16511568; HINT:15510218; IntAct:20102225; IntAct:10327051; HINT:1827203; Lit-BM-17:8027667; Lit-BM-17:20511396; HINT:10327051; BioGRID:10207054; Lit-BM-17:20195357; HINT:18641343; HPRD:2320002; Lit-BM-17:10207054; SPIKE:10327051; SPIKE:1827203; SPIKE_LC:1828107; SPIKE_LC:1827203
+ATF2	stimulation	JUN
+# Reference PMID: nan
+STAT4	stimulation	IFNA13
+# Reference PMID: nan
+IFNA13	stimulation	STAT4
+# Reference PMID: nan
+NFKB1	stimulation	IL1B
+# Reference PMID: nan
+NFKB1	stimulation	IFNA13
+# Reference PMID: nan
+IL15	stimulation	NFKB1
+# Reference PMID: nan
+FAS	stimulation	NFKB1
+# Reference PMID: nan
+IL1B	stimulation	CXCL10
+# Reference PMID: nan
+IL15	stimulation	STAT6
+# Reference PMID: nan
+IL15	stimulation	KLRK1

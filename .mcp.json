@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "neko": {
+      "type": "stdio",
+      "command": "/Users/saran/Git/mcp_hackaton/mcp-biomodelling-servers/.venv/bin/mcp-neko-server",
+      "args": [],
+      "env": {}
+    },
+    "maboss": {
+      "type": "stdio",
+      "command": "/Users/saran/Git/mcp_hackaton/mcp-biomodelling-servers/.venv/bin/mcp-maboss-server",
+      "args": [],
+      "env": {}
+    },
+    "physicell": {
+      "type": "stdio",
+      "command": "/Users/saran/Git/mcp_hackaton/mcp-biomodelling-servers/.venv/bin/mcp-physicell-server",
+      "args": [],
+      "env": {}
+    }
+  }
+}
