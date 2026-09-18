@@ -4,7 +4,7 @@
   "title": "NeKo Biological Network Builder",
   "description": "MCP server for biological network construction and analysis using pathway databases",
   "repository": {
-    "url": "https://github.com/marcorusc/mcp-biomodelling-servers",
+    "url": "https://github.com/saran-pankaew/mcp-biomodelling-servers",
     "source": "github",
     "subfolder": "NeKo"
   },

@@ -117,6 +117,7 @@ from .src.structured_outputs import (
     NeKoReferenceQueryResult,
 )
 from .tools.analysis import analyze_connectivity, analyze_gene_set
+from .tools.cellmarker import find_cellmarker_genes
 from .tools.guidance import (
     neko_agent_manual_resource,
     neko_workflow_prompt,

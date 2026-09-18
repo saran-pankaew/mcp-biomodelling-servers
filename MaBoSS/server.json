@@ -4,7 +4,7 @@
   "title": "MaBoSS Boolean Network Simulator",
   "description": "MCP server for Boolean network simulation and attractor analysis using MaBoSS",
   "repository": {
-    "url": "https://github.com/marcorusc/mcp-biomodelling-servers",
+    "url": "https://github.com/saran-pankaew/mcp-biomodelling-servers",
     "source": "github",
     "subfolder": "MaBoSS"
   },

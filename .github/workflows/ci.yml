@@ -234,7 +234,15 @@ jobs:
               f"Checked {len(archives)} distribution archives: "
               "no environment files found and package metadata is complete."
           )
-          PY
+            PY
+
+      - name: Upload distributions for teammate testing
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-distributions-${{ github.sha }}
+          path: dist/
+          if-no-files-found: error
+          retention-days: 14
 
   compatibility:
     name: Compatibility · ${{ matrix.label }}

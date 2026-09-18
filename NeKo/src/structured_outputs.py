@@ -15,7 +15,6 @@ ReusePolicy = Literal["none", "discovered_paths", "induced_subgraph"]
 InteractionNodeScope = Literal["incident", "internal", "boundary"]
 ConnectivityMode = Literal["weak", "strong"]
 
-
 class NeKoScientificResult(StructuredOutputModel):
     """Fields shared by NeKo scientific query results."""
 

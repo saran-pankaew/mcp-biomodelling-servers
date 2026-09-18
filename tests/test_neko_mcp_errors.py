@@ -2005,7 +2005,7 @@ def test_all_neko_tools_publish_safety_annotations() -> None:
         "list_artifact_sessions",
         "status",
     }
-    read_only_open = {"preview_connection_impact"}
+    read_only_open = {"preview_connection_impact", "find_cellmarker_genes"}
     idempotent_closed = {
         "export_network",
         "set_default_params",

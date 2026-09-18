@@ -85,6 +85,18 @@ Use this order for a database-backed network:
 During iterative construction, prefer `verbosity="summary"`. Use `preview` or
 `full` only when the actual nodes, interactions, paths, or evidence are needed.
 
+## CellMarker gene lookup
+
+`find_cellmarker_genes(cell_types=[...], species=...)` is an independent,
+read-only tool. It does not require a NeKo session and returns both normalized
+marker records and a deduplicated `genes` list suitable for
+`create_network(list_of_initial_genes=...)`.
+
+The tool uses the CellMarker API endpoint configured by the
+`CELLMARKER_API_URL` environment variable. The default is the CellMarker 3.0
+marker endpoint. Set that variable when deploying behind a proxy or using a
+locally mirrored CellMarker API.
+
 ## Building a network
 
 `create_network()` supports two curated database backends:

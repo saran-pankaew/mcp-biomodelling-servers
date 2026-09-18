@@ -72,6 +72,25 @@ uvx --from mcp-biomodelling-servers mcp-maboss-server
 uvx --from mcp-biomodelling-servers mcp-physicell-server
 ```
 
+### Share a branch build with a teammate
+
+For quick development sharing, install directly from the branch under test:
+
+```bash
+uvx --from "git+https://github.com/saran-pankaew/mcp-biomodelling-servers.git@development_v2" mcp-neko-server
+```
+
+Replace `development_v2` with the branch or commit to test, and use the
+corresponding `mcp-maboss-server` or `mcp-physicell-server` entry point. Every
+push and pull request also produces a downloadable `python-distributions`
+artifact in its successful GitHub Actions run.
+
+Tagged releases are published to PyPI by
+`.github/workflows/publish.yml`. To release, update the version in
+`pyproject.toml` and the synchronized server metadata, then push a matching
+tag such as `v2.3.1`. The repository must have a PyPI Trusted Publisher
+configured for the `publish.yml` workflow.
+
 Conda is optional. It remains useful when you want one explicitly managed
 environment for local development or additional native scientific software,
 but it is not required for the packaged entry points.
@@ -161,7 +180,7 @@ model or configuration when validity itself is the requested result.
 Clone the repository and install it with its development dependencies:
 
 ```bash
-git clone https://github.com/marcorusc/mcp-biomodelling-servers.git
+git clone https://github.com/saran-pankaew/mcp-biomodelling-servers.git
 cd mcp-biomodelling-servers
 python -m pip install ".[dev]"
 ```

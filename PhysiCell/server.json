@@ -4,7 +4,7 @@
   "title": "PhysiCell Configuration Builder",
   "description": "MCP server for building, inspecting, and exporting PhysiCell and PhysiBoSS configuration files",
   "repository": {
-    "url": "https://github.com/marcorusc/mcp-biomodelling-servers",
+    "url": "https://github.com/saran-pankaew/mcp-biomodelling-servers",
     "source": "github",
     "subfolder": "PhysiCell"
   },

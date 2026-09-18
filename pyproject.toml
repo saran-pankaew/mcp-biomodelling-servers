@@ -46,8 +46,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/marcorusc/mcp-biomodelling-servers"
-Repository = "https://github.com/marcorusc/mcp-biomodelling-servers"
+Homepage = "https://github.com/saran-pankaew/mcp-biomodelling-servers"
+Repository = "https://github.com/saran-pankaew/mcp-biomodelling-servers"
 
 [project.scripts]
 mcp-neko-server = "mcp_biomodelling_servers.neko:main"
