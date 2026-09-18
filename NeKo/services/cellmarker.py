@@ -10,10 +10,13 @@ from typing import Any
 
 import requests
 
-CELLMARKER_API_URL = (
-    "https://bio-bigdata.hrbmu.edu.cn/CellMarker/api/markers"
+CELLMARKER_DEFAULT_DATA_URL = (
+    "https://bio-bigdata.hrbmu.edu.cn/CellMarker/download/human_cell_marker.txt"
 )
 CELLMARKER_DATA_PATH_ENV = "CELLMARKER_DATA_PATH"
+DEFAULT_CELLMARKER_DATA_PATH = (
+    Path(__file__).resolve().parent.parent / "data" / "human_cell_marker.txt"
+)
 
 
 def _first_value(record: dict[str, Any], names: tuple[str, ...]) -> str | None:
@@ -24,16 +27,29 @@ def _first_value(record: dict[str, Any], names: tuple[str, ...]) -> str | None:
     return None
 
 
-def _records_from_payload(payload: Any) -> list[dict[str, Any]]:
-    if isinstance(payload, list):
-        return [item for item in payload if isinstance(item, dict)]
-    if not isinstance(payload, dict):
-        raise ValueError("CellMarker returned a JSON value with no records.")
-    for key in ("data", "results", "records", "rows"):
-        value = payload.get(key)
-        if isinstance(value, list):
-            return [item for item in value if isinstance(item, dict)]
-    return [payload]
+def _download_default_marker_table(data_path: Path) -> Path:
+    """Download the default CellMarker table once and publish it only when complete."""
+    data_path.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path = data_path.with_name(f".{data_path.name}.part")
+    try:
+        with requests.get(
+            CELLMARKER_DEFAULT_DATA_URL,
+            stream=True,
+            timeout=180,
+        ) as response:
+            response.raise_for_status()
+            with temporary_path.open("wb") as data_file:
+                for chunk in response.iter_content(chunk_size=1024 * 1024):
+                    if chunk:
+                        data_file.write(chunk)
+        temporary_path.replace(data_path)
+    except (OSError, requests.RequestException) as exc:
+        temporary_path.unlink(missing_ok=True)
+        raise RuntimeError(
+            "The default CellMarker human marker table could not be downloaded. Set "
+            f"{CELLMARKER_DATA_PATH_ENV} to a compatible local marker table."
+        ) from exc
+    return data_path
 
 
 def _lookup_local_records(
@@ -46,8 +62,8 @@ def _lookup_local_records(
 
     requested_types = {cell_type.casefold() for cell_type in cell_types}
     requested_species = species.casefold() if species else None
-    if data_path.suffix.lower() in {".csv", ".tsv"}:
-        delimiter = "\t" if data_path.suffix.lower() == ".tsv" else ","
+    if data_path.suffix.lower() in {".csv", ".tsv", ".txt"}:
+        delimiter = "\t" if data_path.suffix.lower() in {".tsv", ".txt"} else ","
         with data_path.open(newline="", encoding="utf-8") as data_file:
             records = list(csv.DictReader(data_file, delimiter=delimiter))
     elif data_path.suffix.lower() in {".db", ".sqlite", ".sqlite3"}:
@@ -71,14 +87,14 @@ def _lookup_local_records(
                 ) from exc
     else:
         raise RuntimeError(
-            "CellMarker local data must be a .csv, .tsv, .db, .sqlite, or .sqlite3 file."
+            "CellMarker local data must be a .csv, .tsv, .txt, .db, .sqlite, or .sqlite3 file."
         )
 
     return [
         record
         for record in records
         if (
-            _first_value(record, ("cell_type", "cell", "celltype", "cellName"))
+            _first_value(record, ("cell_type", "cell", "celltype", "cellName", "cell_name"))
             or ""
         ).casefold()
         in requested_types
@@ -95,7 +111,7 @@ def _lookup_local_records(
 def _genes_from_record(record: dict[str, Any]) -> list[str]:
     gene = _first_value(
         record,
-        ("gene", "gene_symbol", "marker_gene", "symbol", "geneSymbol"),
+        ("gene", "gene_symbol", "marker_gene", "symbol", "geneSymbol", "marker"),
     )
     if gene is None:
         return []
@@ -110,37 +126,22 @@ def lookup_markers(
 ) -> tuple[list[dict[str, str | None]], list[str], str]:
     """Look up CellMarker records and return normalized genes for NeKo."""
     local_data = os.environ.get(CELLMARKER_DATA_PATH_ENV)
-    if local_data:
-        data_path = Path(local_data).expanduser().resolve()
-        records = _lookup_local_records(data_path, cell_types, species)
-        endpoint = data_path.as_uri()
-    else:
-        endpoint = os.environ.get("CELLMARKER_API_URL", CELLMARKER_API_URL)
-        params: list[tuple[str, str]] = [("cell_type", cell_type) for cell_type in cell_types]
-        if species:
-            params.append(("species", species))
-        try:
-            response = requests.get(endpoint, params=params, timeout=20)
-            response.raise_for_status()
-            records = _records_from_payload(response.json())
-        except requests.RequestException as exc:
-            response_status = getattr(exc.response, "status_code", None)
-            detail = f" (HTTP {response_status})" if response_status else ""
-            raise RuntimeError(
-                "CellMarker could not be reached"
-                f"{detail}. Set {CELLMARKER_DATA_PATH_ENV} to a local CellMarker "
-                "CSV, TSV, or SQLite database, or set CELLMARKER_API_URL to a "
-                "compatible API endpoint."
-            ) from exc
-        except ValueError as exc:
-            raise RuntimeError("CellMarker returned invalid JSON.") from exc
+    data_path = (
+        Path(local_data).expanduser().resolve()
+        if local_data
+        else DEFAULT_CELLMARKER_DATA_PATH
+    )
+    if not local_data and not data_path.is_file():
+        data_path = _download_default_marker_table(data_path)
+    records = _lookup_local_records(data_path, cell_types, species)
+    endpoint = data_path.as_uri()
 
     normalized: list[dict[str, str | None]] = []
-    genes: set[str] = set()
+    gene_source_counts: dict[str, int] = {}
     for record in records:
         matched_type = _first_value(
             record,
-            ("cell_type", "cell", "celltype", "cellName"),
+            ("cell_type", "cell", "celltype", "cellName", "cell_name"),
         )
         for gene in _genes_from_record(record):
             normalized.append(
@@ -158,5 +159,9 @@ def lookup_markers(
                     ),
                 }
             )
-            genes.add(gene)
-    return normalized, sorted(genes), endpoint
+            gene_source_counts[gene] = gene_source_counts.get(gene, 0) + 1
+    genes = sorted(
+        gene_source_counts,
+        key=lambda gene: (-gene_source_counts[gene], gene.casefold()),
+    )
+    return normalized, genes, endpoint

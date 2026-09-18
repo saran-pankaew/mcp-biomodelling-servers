@@ -1,45 +1,44 @@
-from typing import Any
-
 import sqlite3
+from typing import Any
 
 from NeKo.services import cellmarker
 from NeKo.services import immgen
 
 
-class _Response:
-    def raise_for_status(self) -> None:
-        return None
-
-    def json(self) -> dict[str, Any]:
-        return {
-            "data": [
-                {"cell_type": "T cell", "gene": "CD3D", "pmid": "1"},
-                {"cell_type": "T cell", "gene_symbol": "IL7R"},
-                {"cell_type": "T cell", "gene": "CD3D"},
-            ]
-        }
-
-
 def test_lookup_markers_normalizes_records_and_genes(
     monkeypatch: Any,
+    tmp_path: Any,
 ) -> None:
-    calls: list[tuple[str, dict[str, Any]]] = []
-
-    def fake_get(url: str, **kwargs: Any) -> _Response:
-        calls.append((url, kwargs))
-        return _Response()
-
-    monkeypatch.setattr(cellmarker.requests, "get", fake_get)
+    data_path = tmp_path / "cellmarker.tsv"
+    data_path.write_text(
+        "cell_type\tgene\tpmid\tspecies\n"
+        "T cell\tCD3D\t1\tHuman\nT cell\tIL7R\t\tHuman\nT cell\tCD3D\t\tHuman\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setenv(cellmarker.CELLMARKER_DATA_PATH_ENV, str(data_path))
 
     records, genes, source = cellmarker.lookup_markers(["T cell"], "Human")
 
-    assert source == cellmarker.CELLMARKER_API_URL
+    assert source == data_path.resolve().as_uri()
     assert genes == ["CD3D", "IL7R"]
     assert records[0]["evidence"] == "1"
-    assert calls[0][1]["params"] == [
-        ("cell_type", "T cell"),
-        ("species", "Human"),
-    ]
+
+
+def test_lookup_markers_ranks_genes_by_marker_source_count(
+    monkeypatch: Any,
+    tmp_path: Any,
+) -> None:
+    data_path = tmp_path / "cellmarker.tsv"
+    data_path.write_text(
+        "cell_type\tgene\nT cell\tZAP70\nT cell\tCD3D\nT cell\tZAP70\n"
+        "T cell\tCD3D\nT cell\tZAP70\nT cell\tIL7R\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setenv(cellmarker.CELLMARKER_DATA_PATH_ENV, str(data_path))
+
+    _, genes, _ = cellmarker.lookup_markers(["T cell"])
+
+    assert genes == ["ZAP70", "CD3D", "IL7R"]
 
 
 def test_lookup_markers_reads_local_sqlite_without_http(
@@ -115,6 +114,68 @@ def test_lookup_markers_reads_official_cellmarker_tsv_columns(
 
     assert genes == ["IL7R"]
     assert records[0]["evidence"] == "12345"
+
+
+def test_lookup_markers_reads_default_human_cellmarker_table(
+    monkeypatch: Any,
+    tmp_path: Any,
+) -> None:
+    data_path = tmp_path / "human_cell_marker.txt"
+    data_path.write_text(
+        "species\tcell_name\tmarker\tpmid\nHuman\tFibroblast\tDCN\t12345\n",
+        encoding="utf-8",
+    )
+    monkeypatch.delenv(cellmarker.CELLMARKER_DATA_PATH_ENV, raising=False)
+    monkeypatch.setattr(cellmarker, "DEFAULT_CELLMARKER_DATA_PATH", data_path)
+
+    records, genes, source = cellmarker.lookup_markers(["Fibroblast"], "Human")
+
+    assert genes == ["DCN"]
+    assert records[0]["evidence"] == "12345"
+    assert source == data_path.as_uri()
+
+
+def test_lookup_markers_downloads_default_when_cache_is_missing(
+    monkeypatch: Any,
+    tmp_path: Any,
+) -> None:
+    data_path = tmp_path / "human_cell_marker.txt"
+    downloaded = b"species\tcell_name\tmarker\nHuman\tFibroblast\tDCN\n"
+    calls: list[tuple[str, dict[str, Any]]] = []
+
+    class Response:
+        def __enter__(self) -> "Response":
+            return self
+
+        def __exit__(self, *args: Any) -> None:
+            return None
+
+        def raise_for_status(self) -> None:
+            return None
+
+        def iter_content(self, chunk_size: int) -> list[bytes]:
+            assert chunk_size == 1024 * 1024
+            return [downloaded]
+
+    def fake_get(url: str, **kwargs: Any) -> Response:
+        calls.append((url, kwargs))
+        return Response()
+
+    monkeypatch.delenv(cellmarker.CELLMARKER_DATA_PATH_ENV, raising=False)
+    monkeypatch.setattr(cellmarker, "DEFAULT_CELLMARKER_DATA_PATH", data_path)
+    monkeypatch.setattr(cellmarker.requests, "get", fake_get)
+
+    _, genes, source = cellmarker.lookup_markers(["Fibroblast"], "Human")
+
+    assert genes == ["DCN"]
+    assert source == data_path.as_uri()
+    assert data_path.read_bytes() == downloaded
+    assert calls == [
+        (
+            cellmarker.CELLMARKER_DEFAULT_DATA_URL,
+            {"stream": True, "timeout": 180},
+        )
+    ]
 
 
 def test_lookup_markers_expands_official_marker_sets(
