@@ -6,29 +6,19 @@ through the Model Context Protocol (MCP). It uses
 interaction databases or existing SIF files, and it preserves topology changes
 in NeKo's native branching history.
 
-The server is distributed in the
-[`mcp-biomodelling-servers`](https://pypi.org/project/mcp-biomodelling-servers/)
-Python package and communicates over stdio. A typed, integrity-protected
-handoff connects a finished NeKo network to the MaBoSS MCP server.
+The server runs from this source repository and communicates over stdio. A
+typed, integrity-protected handoff connects a finished NeKo network to the
+MaBoSS MCP server.
 
 ## Installation and startup
 
-Install all three bio-modelling servers:
+From the repository root:
 
 ```bash
-python -m pip install mcp-biomodelling-servers
-```
-
-Start the installed NeKo server:
-
-```bash
+uv venv --python 3.12
+source .venv/bin/activate
+uv pip install -e ".[dev]"
 mcp-neko-server
-```
-
-Alternatively, run it in an isolated environment:
-
-```bash
-uvx --from mcp-biomodelling-servers mcp-neko-server
 ```
 
 The external Graphviz `dot` executable is required to render the branching

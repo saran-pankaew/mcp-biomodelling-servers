@@ -6,28 +6,17 @@ uses [pyMaBoSS](https://github.com/colomoto/pyMaBoSS) as its simulation engine
 and can participate in a verified modelling pipeline from NeKo to MaBoSS to
 PhysiCell.
 
-The server is distributed in the
-[`mcp-biomodelling-servers`](https://pypi.org/project/mcp-biomodelling-servers/)
-Python package and communicates over stdio.
+The server runs from this source repository and communicates over stdio.
 
 ## Installation and startup
 
-Install all three bio-modelling servers:
+From the repository root:
 
 ```bash
-python -m pip install mcp-biomodelling-servers
-```
-
-Start the installed MaBoSS server:
-
-```bash
+uv venv --python 3.12
+source .venv/bin/activate
+uv pip install -e ".[dev]"
 mcp-maboss-server
-```
-
-Alternatively, run it in an isolated environment:
-
-```bash
-uvx --from mcp-biomodelling-servers mcp-maboss-server
 ```
 
 See the [repository README](../README.md) for the supported Python versions,
