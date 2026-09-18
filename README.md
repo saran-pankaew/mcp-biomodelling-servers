@@ -30,13 +30,13 @@ source .venv/bin/activate
 uv pip install -e ".[dev]"
 ```
 
-If the branch is different, replace `development_v2` with the branch you want
+If the branch is different, replace `main` with the branch you want
 to use.
 
 ## Update
 
 ```bash
-git pull --ff-only origin development_v2
+git pull --ff-only origin main
 source .venv/bin/activate
 uv pip install -e ".[dev]"
 ```
