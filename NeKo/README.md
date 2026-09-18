@@ -99,6 +99,24 @@ the deployment. When `CELLMARKER_DATA_PATH` is unset, the tool uses the API
 endpoint configured by `CELLMARKER_API_URL`; this remains available for
 compatible deployments but is not required for local operation.
 
+## ImmGen ranked-gene lookup
+
+`find_immgen_genes(cell_type=..., top_n=20)` is a read-only, session-independent
+tool for mouse immune populations. It ranks genes by mean normalized expression
+across a population's matching replicate columns and returns the ranked records
+plus a NeKo-ready `genes` list.
+
+The default is ImmGen `GSE109125` normalized gene-count data. On first use, the
+tool downloads it to `NeKo/data/GSE109125_Normalized_Gene_count_table.csv`; later
+lookups use that local cache. Its source details are recorded in
+`NeKo/data/GSE109125_README.md`. Population names use ImmGen's abbreviations;
+for example, the naive CD4 T-cell samples begin with `T.4.Nve`. Set
+`IMMGEN_DATA_PATH` to use another compatible normalized CSV or TSV table.
+
+These are expression rankings, not discriminative marker sets. For cell-type
+specific markers, compare the selected population with suitable reference
+populations and rank by differential expression instead.
+
 ## Building a network
 
 `create_network()` supports two curated database backends:

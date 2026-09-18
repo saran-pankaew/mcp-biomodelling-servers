@@ -34,6 +34,7 @@ pypath_log/
 # Generated artifacts (runtime output – not source)
 NeKo/exports/
 NeKo/artifacts/
+NeKo/data/GSE109125_Normalized_Gene_count_table.csv
 MaBoSS/artifacts/
 PhysiCell/artifacts/
 

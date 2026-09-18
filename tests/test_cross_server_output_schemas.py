@@ -28,6 +28,7 @@ EXPECTED_NAMED_OUTPUTS = {
         "clean_generated_files": "MaBoSSArtifactCleanupResult",
     },
     "NeKo": {
+        "find_immgen_genes": "ImmGenLookupResult",
         "export_network": "NeKoNetworkExportResult",
         "export_neko_handoff": "NeKoHandoffExportResult",
         "list_genes_and_interactions": "NeKoNetworkInventoryResult",
@@ -71,7 +72,7 @@ EXPECTED_NAMED_OUTPUTS = {
 
 EXPECTED_TOOL_COUNTS = {
     "MaBoSS": 24,
-    "NeKo": 32,
+    "NeKo": 33,
     "PhysiCell": 34,
 }
 TOOL_NAME_PATTERN = re.compile(r"^[A-Za-z0-9_.-]{1,128}$")
@@ -111,7 +112,7 @@ async def _list_all_tools() -> dict[str, dict[str, Any]]:
 def test_all_servers_publish_complete_input_and_annotation_contracts() -> None:
     tool_maps = asyncio.run(_list_all_tools())
 
-    assert sum(len(tools) for tools in tool_maps.values()) == 90
+    assert sum(len(tools) for tools in tool_maps.values()) == 91
     for server_name, tools in tool_maps.items():
         assert len(tools) == EXPECTED_TOOL_COUNTS[server_name]
         for tool_name, tool in tools.items():

@@ -29,3 +29,24 @@ class CellMarkerLookupResult(StructuredOutputModel):
     record_count: int = Field(ge=0)
     genes: list[str]
     records: list[CellMarkerRecord]
+
+
+class ImmGenRankedGene(StructuredOutputModel):
+    """One high-expression ImmGen gene for a selected cell type."""
+
+    cell_type: str = Field(min_length=1)
+    gene: str = Field(min_length=1)
+    rank: int = Field(ge=1)
+    expression: float
+
+
+class ImmGenLookupResult(StructuredOutputModel):
+    """Ranked ImmGen genes ready for use as NeKo seed genes."""
+
+    server: Literal["NeKo"]
+    cell_type: str = Field(min_length=1)
+    species: Literal["Mouse"]
+    top_n: int = Field(ge=1)
+    source: str = Field(min_length=1)
+    genes: list[str]
+    records: list[ImmGenRankedGene]

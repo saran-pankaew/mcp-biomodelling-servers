@@ -481,6 +481,12 @@ def test_scientific_tools_publish_named_structured_output_schemas() -> None:
     listed_tools = _run(_list_tools())
     tools = {tool.name: tool for tool in listed_tools.tools}
 
+    immgen_schema = tools["find_immgen_genes"].output_schema
+    assert immgen_schema is not None
+    assert immgen_schema["title"] == "ImmGenLookupResult"
+    assert "session_id" not in immgen_schema["properties"]
+    assert tools["find_immgen_genes"].input_schema["properties"]["top_n"]["default"] == 20
+
     for tool_name, expected_title in {
         "status": "NeKoNetworkStatusResult",
         "list_genes_and_interactions": "NeKoNetworkInventoryResult",
@@ -2005,7 +2011,11 @@ def test_all_neko_tools_publish_safety_annotations() -> None:
         "list_artifact_sessions",
         "status",
     }
-    read_only_open = {"preview_connection_impact", "find_cellmarker_genes"}
+    read_only_open = {
+        "preview_connection_impact",
+        "find_cellmarker_genes",
+        "find_immgen_genes",
+    }
     idempotent_closed = {
         "export_network",
         "set_default_params",

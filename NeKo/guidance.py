@@ -51,8 +51,10 @@ NEKO_AGENT_MANUAL = """
   - See https://github.com/sysbio-curie/Neko/blob/development/docs_mkdocs/strategies/index.md
     for the concise strategy and path/reuse policy semantics.
 * **Inspection:** `list_genes_and_interactions`, `find_paths`, `get_references`, `filter_interactions`
-  `find_cellmarker_genes` independently retrieves marker genes for requested
-  cell types; pass its returned `genes` list to `create_network`.
+  `find_cellmarker_genes` independently retrieves curated marker genes for
+  requested cell types. `find_immgen_genes(cell_type=..., top_n=20)` ranks
+  genes from a local ImmGen mouse expression table; pass either returned
+  `genes` list to `create_network`.
 * **History:** `list_network_history`, `navigate_network_history`, `compare_network_states`, `set_network_history_limit`
 * **Handoff:** `export_neko_handoff` records exact sanitized Boolean nodes,
   declared outputs, package versions, history state, and artifact digests.
